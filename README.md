@@ -17,7 +17,7 @@ This project is a professional market analysis dashboard that provides real-time
 3.  Configure the API URL:
     *   Modify the `API_URL` variable in the `templates/index.html` file to point to your API endpoint.
     ```javascript
-    const API_URL = "http://https://ltp-analyzer.onrender.com/analyze";
+    const API_URL = "https://ltp-analyzer.onrender.com/analyze";
     ```
 4.  Obtain and configure the Token Refresh URL:
     *   Set the `TOKEN_REFRESH_URL` variable in `templates/index.html` with your Google API key.
@@ -32,7 +32,7 @@ This project is a professional market analysis dashboard that provides real-time
     python main.py
     ```
 2.  Open the dashboard in your browser:
-    *   Navigate to `http://https://ltp-analyzer.onrender.com/` (or the appropriate address based on your setup).
+    *   Navigate to `https://ltp-analyzer.onrender.com/` (or the appropriate address based on your setup).
 
 ## Features
 
