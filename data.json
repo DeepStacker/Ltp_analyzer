@@ -2,7 +2,7 @@
     "statusCode": 200,
     "message": "Data Fetched Successfully",
     "data": {
-        "_id": "6867a6d42405d5bb3b147616",
+        "_id": "68676840b4598389b3c7487d",
         "symbol": "NIFTY",
         "data": {
             "Datas": {
@@ -20,46 +20,89 @@
                 },
                 "optionData": [
                     {
+                        "Strike": 24650,
+                        "Call": {
+                            "ImpliedVolatility": 0,
+                            "Delta": 1,
+                            "Theta": -6.741993609635338,
+                            "Vega": 0,
+                            "Gamma": null,
+                            "Rho": 4.168799381957851,
+                            "ChngOi": 5,
+                            "OiChng": -1,
+                            "Oi": 64,
+                            "Volume": 23,
+                            "ChngVolume": 3,
+                            "ChngLtp": -44.5,
+                            "Ltp": 755.5,
+                            "breakerStatus": "Breaker Inactive",
+                            "Resistance": 24714.377155423437,
+                            "firstFuture_Resistance": 24799.777155423435,
+                            "secondFuture_Resistance": 24909.277155423435,
+                            "thirdFuture_Resistance": 25066.877155423434
+                        },
+                        "Put": {
+                            "ImpliedVolatility": 14.334281140396477,
+                            "Delta": -0.03972633883057386,
+                            "Theta": -3.007883459095272,
+                            "Vega": 2.835525056009704,
+                            "Gamma": 0.0001806735928652289,
+                            "Rho": 0.17238606113350108,
+                            "Ltp": 7.65,
+                            "ChngLtp": -2.299999999999999,
+                            "Volume": 83876,
+                            "ChngVolume": 984,
+                            "Oi": 9398,
+                            "ChngOi": 6535,
+                            "OiChng": -85,
+                            "breakerStatus": "Breaker Inactive",
+                            "Support": 24699.00931985772,
+                            "firstFuture_Support": 24784.409319857717,
+                            "secondFuture_Support": 24893.909319857717,
+                            "thirdFuture_Support": 25051.509319857716
+                        }
+                    },
+                    {
                         "Strike": 24700,
                         "Call": {
                             "ImpliedVolatility": 0,
                             "Delta": 1,
-                            "Theta": -6.756012243597734,
+                            "Theta": -6.75566905306259,
                             "Vega": 0,
                             "Gamma": null,
-                            "Rho": 4.05219984360789,
-                            "ChngOi": -31,
-                            "OiChng": -2,
-                            "Oi": 491,
-                            "Volume": 564,
-                            "ChngVolume": 4,
-                            "ChngLtp": 29.950000000000045,
-                            "Ltp": 783,
+                            "Rho": 4.177255364477035,
+                            "ChngOi": 5,
+                            "OiChng": -1,
+                            "Oi": 527,
+                            "Volume": 151,
+                            "ChngVolume": 3,
+                            "ChngLtp": -9.25,
+                            "Ltp": 743.8,
                             "breakerStatus": "Breaker Inactive",
-                            "Resistance": 24766.874449193238,
-                            "firstFuture_Resistance": 24857.874449193238,
-                            "secondFuture_Resistance": 24964.874449193238,
-                            "thirdFuture_Resistance": 25115.874449193238
+                            "Resistance": 24761.499344750526,
+                            "firstFuture_Resistance": 24846.899344750527,
+                            "secondFuture_Resistance": 24956.399344750527,
+                            "thirdFuture_Resistance": 25113.999344750526
                         },
                         "Put": {
-                            "ImpliedVolatility": 14.637911138329585,
-                            "Delta": -0.04325506986213312,
-                            "Theta": -3.3525503678937727,
-                            "Vega": 2.996608098627237,
-                            "Gamma": 0.00019217299812066544,
-                            "Rho": 0.18237238046226176,
-                            "Ltp": 8.5,
-                            "ChngLtp": -2.8499999999999996,
-                            "Volume": 473715,
-                            "ChngVolume": 3773,
-                            "Oi": 45229,
-                            "ChngOi": 13149,
-                            "OiChng": 234,
-                            "breakerStatus": "Breaker Inactive",
-                            "Support": 24713.120352560913,
-                            "firstFuture_Support": 24804.120352560916,
-                            "secondFuture_Support": 24911.120352560916,
-                            "thirdFuture_Support": 25062.120352560916
+                            "ImpliedVolatility": 13.979522615380604,
+                            "Delta": -0.04584553595137253,
+                            "Theta": -3.2771843641725225,
+                            "Vega": 3.183695069249385,
+                            "Gamma": 0.0002080061777576929,
+                            "Rho": 0.19893452920569846,
+                            "Ltp": 8.8,
+                            "ChngLtp": -2.549999999999999,
+                            "Volume": 179330,
+                            "ChngVolume": 2050,
+                            "Oi": 41855,
+                            "ChngOi": 9775,
+                            "OiChng": -70,
+                            "breakerStatus": "Breaker Active",
+                            "Support": 24714.377155423437,
+                            "firstFuture_Support": 24799.777155423435,
+                            "secondFuture_Support": 24909.277155423435,
+                            "thirdFuture_Support": 25066.877155423434
                         }
                     },
                     {
@@ -67,42 +110,42 @@
                         "Call": {
                             "ImpliedVolatility": 0,
                             "Delta": 1,
-                            "Theta": -6.769688381742668,
+                            "Theta": -6.769344496489842,
                             "Vega": 0,
                             "Gamma": null,
-                            "Rho": 4.060402677299405,
-                            "ChngOi": -34,
-                            "OiChng": -4,
-                            "Oi": 137,
-                            "Volume": 246,
-                            "ChngVolume": 6,
-                            "ChngLtp": 25.949999999999932,
-                            "Ltp": 732.65,
+                            "Rho": 4.185711346996219,
+                            "ChngOi": -3,
+                            "OiChng": -1,
+                            "Oi": 168,
+                            "Volume": 37,
+                            "ChngVolume": 5,
+                            "ChngLtp": -6.7000000000000455,
+                            "Ltp": 700,
                             "breakerStatus": "Breaker Inactive",
-                            "Resistance": 24816.482171607462,
-                            "firstFuture_Resistance": 24907.482171607466,
-                            "secondFuture_Resistance": 25014.482171607466,
-                            "thirdFuture_Resistance": 25165.482171607466
+                            "Resistance": 24813.303747810627,
+                            "firstFuture_Resistance": 24898.70374781063,
+                            "secondFuture_Resistance": 25008.20374781063,
+                            "thirdFuture_Resistance": 25165.803747810627
                         },
                         "Put": {
-                            "ImpliedVolatility": 14.212551528047717,
-                            "Delta": -0.04907881553308402,
-                            "Theta": -3.584501869432284,
-                            "Vega": 3.3165970731214585,
-                            "Gamma": 0.0002190595463997163,
-                            "Rho": 0.20691098953897724,
-                            "Ltp": 9.55,
-                            "ChngLtp": -3.75,
-                            "Volume": 311912,
-                            "ChngVolume": 2033,
-                            "Oi": 10665,
-                            "ChngOi": 5620,
-                            "OiChng": -301,
+                            "ImpliedVolatility": 13.636402174425042,
+                            "Delta": -0.05319971629139442,
+                            "Theta": -3.579943044884757,
+                            "Vega": 3.5851717439369137,
+                            "Gamma": 0.000240130471436516,
+                            "Rho": 0.23084407214835198,
+                            "Ltp": 10.2,
+                            "ChngLtp": -3.1000000000000014,
+                            "Volume": 104477,
+                            "ChngVolume": 993,
+                            "Oi": 11204,
+                            "ChngOi": 6159,
+                            "OiChng": -19,
                             "breakerStatus": "Breaker Active",
-                            "Support": 24766.874449193238,
-                            "firstFuture_Support": 24857.874449193238,
-                            "secondFuture_Support": 24964.874449193238,
-                            "thirdFuture_Support": 25115.874449193238
+                            "Support": 24761.499344750526,
+                            "firstFuture_Support": 24846.899344750527,
+                            "secondFuture_Support": 24956.399344750527,
+                            "thirdFuture_Support": 25113.999344750526
                         }
                     },
                     {
@@ -110,42 +153,42 @@
                         "Call": {
                             "ImpliedVolatility": 0,
                             "Delta": 1,
-                            "Theta": -6.783364519887604,
+                            "Theta": -6.783019939917094,
                             "Vega": 0,
                             "Gamma": null,
-                            "Rho": 4.068605510990918,
-                            "ChngOi": -78,
-                            "OiChng": -7,
-                            "Oi": 1300,
-                            "Volume": 1714,
-                            "ChngVolume": 22,
-                            "ChngLtp": 30.950000000000045,
-                            "Ltp": 685.7,
+                            "Rho": 4.194167329515404,
+                            "ChngOi": 15,
+                            "OiChng": -1,
+                            "Oi": 1393,
+                            "Volume": 590,
+                            "ChngVolume": 1,
+                            "ChngLtp": -3.0499999999999545,
+                            "Ltp": 651.7,
                             "breakerStatus": "Breaker Inactive",
-                            "Resistance": 24869.102520632943,
-                            "firstFuture_Resistance": 24960.102520632943,
-                            "secondFuture_Resistance": 25067.102520632943,
-                            "thirdFuture_Resistance": 25218.102520632943
+                            "Resistance": 24868.952142969363,
+                            "firstFuture_Resistance": 24954.352142969357,
+                            "secondFuture_Resistance": 25063.852142969357,
+                            "thirdFuture_Resistance": 25221.452142969363
                         },
                         "Put": {
-                            "ImpliedVolatility": 13.874349738988398,
-                            "Delta": -0.05702426823820361,
-                            "Theta": -3.9199410366731495,
-                            "Vega": 3.735752411434908,
-                            "Gamma": 0.00025275919923167567,
-                            "Rho": 0.2404088071046101,
-                            "Ltp": 11.1,
-                            "ChngLtp": -4.550000000000001,
-                            "Volume": 562839,
-                            "ChngVolume": 6718,
-                            "Oi": 42226,
-                            "ChngOi": 10279,
-                            "OiChng": 435,
+                            "ImpliedVolatility": 13.351955190630104,
+                            "Delta": -0.06270173879712237,
+                            "Theta": -3.9646302862964857,
+                            "Vega": 4.079629519799307,
+                            "Gamma": 0.0002790698823532281,
+                            "Rho": 0.27208846677661414,
+                            "Ltp": 12.1,
+                            "ChngLtp": -3.5500000000000007,
+                            "Volume": 199985,
+                            "ChngVolume": 2014,
+                            "Oi": 44169,
+                            "ChngOi": 12222,
+                            "OiChng": -496,
                             "breakerStatus": "Breaker Active",
-                            "Support": 24816.482171607462,
-                            "firstFuture_Support": 24907.482171607466,
-                            "secondFuture_Support": 25014.482171607466,
-                            "thirdFuture_Support": 25165.482171607466
+                            "Support": 24813.303747810627,
+                            "firstFuture_Support": 24898.70374781063,
+                            "secondFuture_Support": 25008.20374781063,
+                            "thirdFuture_Support": 25165.803747810627
                         }
                     },
                     {
@@ -153,42 +196,42 @@
                         "Call": {
                             "ImpliedVolatility": 0,
                             "Delta": 1,
-                            "Theta": -6.797040658032538,
+                            "Theta": -6.796695383344347,
                             "Vega": 0,
                             "Gamma": null,
-                            "Rho": 4.076808344682432,
-                            "ChngOi": -4,
-                            "OiChng": -4,
-                            "Oi": 93,
-                            "Volume": 311,
-                            "ChngVolume": 6,
-                            "ChngLtp": 25.950000000000045,
-                            "Ltp": 636.75,
+                            "Rho": 4.202623312034588,
+                            "ChngOi": 3,
+                            "OiChng": -1,
+                            "Oi": 100,
+                            "Volume": 48,
+                            "ChngVolume": 2,
+                            "ChngLtp": -10.549999999999955,
+                            "Ltp": 600.25,
                             "breakerStatus": "Breaker Inactive",
-                            "Resistance": 24919.227243135552,
-                            "firstFuture_Resistance": 25010.227243135552,
-                            "secondFuture_Resistance": 25117.227243135552,
-                            "thirdFuture_Resistance": 25268.227243135552
+                            "Resistance": 24925.154705903722,
+                            "firstFuture_Resistance": 25010.55470590372,
+                            "secondFuture_Resistance": 25120.05470590372,
+                            "thirdFuture_Resistance": 25277.65470590372
                         },
                         "Put": {
-                            "ImpliedVolatility": 13.55032505322219,
-                            "Delta": -0.06659109871886282,
-                            "Theta": -4.295008543922034,
-                            "Vega": 4.216663688912924,
-                            "Gamma": 0.00029211965147127355,
-                            "Rho": 0.2807478483378837,
-                            "Ltp": 13,
-                            "ChngLtp": -5.199999999999999,
-                            "Volume": 263809,
-                            "ChngVolume": 2077,
-                            "Oi": 9885,
-                            "ChngOi": 5717,
-                            "OiChng": -273,
+                            "ImpliedVolatility": 13.039609153715029,
+                            "Delta": -0.07351443309314121,
+                            "Theta": -4.347959961958755,
+                            "Vega": 4.612881332034041,
+                            "Gamma": 0.00032310584765414584,
+                            "Rho": 0.3190199056317823,
+                            "Ltp": 14.25,
+                            "ChngLtp": -3.9499999999999993,
+                            "Volume": 73562,
+                            "ChngVolume": 1010,
+                            "Oi": 9987,
+                            "ChngOi": 5819,
+                            "OiChng": 2,
                             "breakerStatus": "Breaker Active",
-                            "Support": 24869.102520632943,
-                            "firstFuture_Support": 24960.102520632943,
-                            "secondFuture_Support": 25067.102520632943,
-                            "thirdFuture_Support": 25218.102520632943
+                            "Support": 24868.952142969363,
+                            "firstFuture_Support": 24954.352142969357,
+                            "secondFuture_Support": 25063.852142969357,
+                            "thirdFuture_Support": 25221.452142969363
                         }
                     },
                     {
@@ -196,42 +239,42 @@
                         "Call": {
                             "ImpliedVolatility": 0,
                             "Delta": 1,
-                            "Theta": -6.810716796177472,
+                            "Theta": -6.8103708267715986,
                             "Vega": 0,
                             "Gamma": null,
-                            "Rho": 4.0850111783739464,
-                            "ChngOi": -30,
-                            "OiChng": -3,
-                            "Oi": 1114,
-                            "Volume": 2598,
-                            "ChngVolume": 35,
-                            "ChngLtp": 27.050000000000068,
-                            "Ltp": 590.85,
+                            "Rho": 4.211079294553772,
+                            "ChngOi": 7,
+                            "OiChng": -9,
+                            "Oi": 1151,
+                            "Volume": 714,
+                            "ChngVolume": 16,
+                            "ChngLtp": -15.75,
+                            "Ltp": 548.05,
                             "breakerStatus": "Breaker Inactive",
-                            "Resistance": 24971.737747459574,
-                            "firstFuture_Resistance": 25062.73774745957,
-                            "secondFuture_Resistance": 25169.73774745957,
-                            "thirdFuture_Resistance": 25320.73774745957
+                            "Resistance": 24974.02904354948,
+                            "firstFuture_Resistance": 25059.429043549477,
+                            "secondFuture_Resistance": 25168.929043549477,
+                            "thirdFuture_Resistance": 25326.529043549475
                         },
                         "Put": {
-                            "ImpliedVolatility": 13.244107826666141,
-                            "Delta": -0.07815388835135262,
-                            "Theta": -4.713884226721019,
-                            "Vega": 4.767191994018381,
-                            "Gamma": 0.00033789476112995945,
-                            "Rho": 0.3295117631412392,
-                            "Ltp": 15.35,
-                            "ChngLtp": -6.35,
-                            "Volume": 625273,
-                            "ChngVolume": 4995,
-                            "Oi": 32803,
-                            "ChngOi": 8857,
-                            "OiChng": -20,
+                            "ImpliedVolatility": 12.799290123726239,
+                            "Delta": -0.08749238322667152,
+                            "Theta": -4.831380613819382,
+                            "Vega": 5.261420560023671,
+                            "Gamma": 0.00037545184599945534,
+                            "Rho": 0.37971873098907283,
+                            "Ltp": 17.2,
+                            "ChngLtp": -4.5,
+                            "Volume": 194306,
+                            "ChngVolume": 1404,
+                            "Oi": 34771,
+                            "ChngOi": 10825,
+                            "OiChng": -60,
                             "breakerStatus": "Breaker Active",
-                            "Support": 24919.227243135552,
-                            "firstFuture_Support": 25010.227243135552,
-                            "secondFuture_Support": 25117.227243135552,
-                            "thirdFuture_Support": 25268.227243135552
+                            "Support": 24925.154705903722,
+                            "firstFuture_Support": 25010.55470590372,
+                            "secondFuture_Support": 25120.05470590372,
+                            "thirdFuture_Support": 25277.65470590372
                         }
                     },
                     {
@@ -239,42 +282,42 @@
                         "Call": {
                             "ImpliedVolatility": 0,
                             "Delta": 1,
-                            "Theta": -6.8243929343224075,
+                            "Theta": -6.824046270198852,
                             "Vega": 0,
                             "Gamma": null,
-                            "Rho": 4.09321401206546,
-                            "ChngOi": 21,
-                            "OiChng": -3,
-                            "Oi": 223,
-                            "Volume": 1209,
-                            "ChngVolume": 7,
-                            "ChngLtp": 26.399999999999977,
-                            "Ltp": 542.85,
+                            "Rho": 4.219535277072957,
+                            "ChngOi": 34,
+                            "OiChng": -1,
+                            "Oi": 236,
+                            "Volume": 378,
+                            "ChngVolume": 3,
+                            "ChngLtp": -11.650000000000034,
+                            "Ltp": 504.8,
                             "breakerStatus": "Breaker Inactive",
-                            "Resistance": 25027.84629965724,
-                            "firstFuture_Resistance": 25118.84629965724,
-                            "secondFuture_Resistance": 25225.84629965724,
-                            "thirdFuture_Resistance": 25376.84629965724
+                            "Resistance": 25023.6816154239,
+                            "firstFuture_Resistance": 25109.081615423893,
+                            "secondFuture_Resistance": 25218.581615423893,
+                            "thirdFuture_Resistance": 25376.1816154239
                         },
                         "Put": {
-                            "ImpliedVolatility": 13.01888384317811,
-                            "Delta": -0.0931454576639047,
-                            "Theta": -5.245662934676013,
-                            "Vega": 5.436832000399336,
-                            "Gamma": 0.00039202492859717115,
-                            "Rho": 0.39276930004274824,
-                            "Ltp": 18.6,
-                            "ChngLtp": -7.449999999999999,
-                            "Volume": 402324,
-                            "ChngVolume": 2872,
-                            "Oi": 17697,
-                            "ChngOi": 11671,
-                            "OiChng": -531,
+                            "ImpliedVolatility": 12.54898808232905,
+                            "Delta": -0.10378657474721331,
+                            "Theta": -5.325674080697933,
+                            "Vega": 5.966262631274949,
+                            "Gamma": 0.0004342409437101087,
+                            "Rho": 0.45048612623083506,
+                            "Ltp": 20.7,
+                            "ChngLtp": -5.350000000000001,
+                            "Volume": 136179,
+                            "ChngVolume": 1200,
+                            "Oi": 13124,
+                            "ChngOi": 7098,
+                            "OiChng": -80,
                             "breakerStatus": "Breaker Active",
-                            "Support": 24971.737747459574,
-                            "firstFuture_Support": 25062.73774745957,
-                            "secondFuture_Support": 25169.73774745957,
-                            "thirdFuture_Support": 25320.73774745957
+                            "Support": 24974.02904354948,
+                            "firstFuture_Support": 25059.429043549477,
+                            "secondFuture_Support": 25168.929043549477,
+                            "thirdFuture_Support": 25326.529043549475
                         }
                     },
                     {
@@ -282,1074 +325,1031 @@
                         "Call": {
                             "ImpliedVolatility": 0,
                             "Delta": 1,
-                            "Theta": -6.838069072467341,
+                            "Theta": -6.837721713626103,
                             "Vega": 0,
                             "Gamma": null,
-                            "Rho": 4.101416845756973,
-                            "ChngOi": -16,
-                            "OiChng": -63,
-                            "Oi": 6951,
-                            "Volume": 40823,
-                            "ChngVolume": 395,
-                            "ChngLtp": 18.150000000000034,
-                            "Ltp": 492.1,
+                            "Rho": 4.227991259592141,
+                            "ChngOi": 1215,
+                            "OiChng": 33,
+                            "Oi": 8182,
+                            "Volume": 11119,
+                            "ChngVolume": 67,
+                            "ChngLtp": -13.149999999999977,
+                            "Ltp": 460.8,
                             "breakerStatus": "Breaker Inactive",
-                            "Resistance": 25072.12728966952,
-                            "firstFuture_Resistance": 25163.127289669515,
-                            "secondFuture_Resistance": 25270.127289669515,
-                            "thirdFuture_Resistance": 25421.127289669515
+                            "Resistance": 25074.43404580657,
+                            "firstFuture_Resistance": 25159.834045806572,
+                            "secondFuture_Resistance": 25269.334045806572,
+                            "thirdFuture_Resistance": 25426.93404580657
                         },
                         "Put": {
-                            "ImpliedVolatility": 12.543559652109485,
-                            "Delta": -0.10627459467237388,
-                            "Theta": -5.513105932566743,
-                            "Vega": 5.986833080786398,
-                            "Gamma": 0.00044804111918036186,
-                            "Rho": 0.4480948979992345,
-                            "Ltp": 21,
-                            "ChngLtp": -9.8,
-                            "Volume": 1620689,
-                            "ChngVolume": 10057,
-                            "Oi": 86518,
-                            "ChngOi": 14139,
-                            "OiChng": -1488,
+                            "ImpliedVolatility": 12.355903455466215,
+                            "Delta": -0.12400011117040777,
+                            "Theta": -5.896818479822398,
+                            "Vega": 6.773310943897792,
+                            "Gamma": 0.0005006838890313185,
+                            "Rho": 0.5383193781425093,
+                            "Ltp": 25.3,
+                            "ChngLtp": -5.5,
+                            "Volume": 587170,
+                            "ChngVolume": 4723,
+                            "Oi": 98711,
+                            "ChngOi": 26332,
+                            "OiChng": -1562,
                             "breakerStatus": "Breaker Active",
-                            "Support": 25027.84629965724,
-                            "firstFuture_Support": 25118.84629965724,
-                            "secondFuture_Support": 25225.84629965724,
-                            "thirdFuture_Support": 25376.84629965724
+                            "Support": 25023.6816154239,
+                            "firstFuture_Support": 25109.081615423893,
+                            "secondFuture_Support": 25218.581615423893,
+                            "thirdFuture_Support": 25376.1816154239
                         }
                     },
                     {
                         "Strike": 25050,
                         "Call": {
-                            "ImpliedVolatility": 0,
-                            "Delta": 1,
-                            "Theta": -6.851745210612277,
-                            "Vega": 0,
-                            "Gamma": null,
-                            "Rho": 4.109619679448488,
-                            "ChngOi": 21,
-                            "OiChng": -7,
-                            "Oi": 281,
-                            "Volume": 4499,
-                            "ChngVolume": 22,
-                            "ChngLtp": 23.25,
-                            "Ltp": 451.2,
+                            "ImpliedVolatility": 4.7809632962952895,
+                            "Delta": 0.9959370415987634,
+                            "Theta": -6.976725738424882,
+                            "Vega": 0.39752103528127253,
+                            "Gamma": 0.0000759419623227894,
+                            "Rho": 4.218915407633466,
+                            "ChngOi": 124,
+                            "OiChng": 2,
+                            "Oi": 384,
+                            "Volume": 1384,
+                            "ChngVolume": 24,
+                            "ChngLtp": -12.949999999999989,
+                            "Ltp": 415,
                             "breakerStatus": "Breaker Inactive",
-                            "Resistance": 25116.70877162212,
-                            "firstFuture_Resistance": 25207.70877162212,
-                            "secondFuture_Resistance": 25314.70877162212,
-                            "thirdFuture_Resistance": 25465.70877162212
+                            "Resistance": 25101.249583372395,
+                            "firstFuture_Resistance": 25186.649583372397,
+                            "secondFuture_Resistance": 25296.149583372397,
+                            "thirdFuture_Resistance": 25453.749583372395
                         },
                         "Put": {
-                            "ImpliedVolatility": 12.263669251485611,
-                            "Delta": -0.1255707745914938,
-                            "Theta": -6.00780388302808,
-                            "Vega": 6.740138012242528,
-                            "Gamma": 0.0005159289327133927,
-                            "Rho": 0.5295104605675182,
-                            "Ltp": 25.15,
-                            "ChngLtp": -12.649999999999999,
-                            "Volume": 501437,
-                            "ChngVolume": 2797,
-                            "Oi": 16254,
-                            "ChngOi": 8751,
-                            "OiChng": -917,
+                            "ImpliedVolatility": 12.130384586843773,
+                            "Delta": -0.14689289627500834,
+                            "Theta": -6.43085219624009,
+                            "Vega": 7.607706453537886,
+                            "Gamma": 0.0005728175118636429,
+                            "Rho": 0.6378099805862717,
+                            "Ltp": 30.6,
+                            "ChngLtp": -7.199999999999996,
+                            "Volume": 166264,
+                            "ChngVolume": 1930,
+                            "Oi": 21967,
+                            "ChngOi": 14464,
+                            "OiChng": 168,
                             "breakerStatus": "Breaker Active",
-                            "Support": 25072.12728966952,
-                            "firstFuture_Support": 25163.127289669515,
-                            "secondFuture_Support": 25270.127289669515,
-                            "thirdFuture_Support": 25421.127289669515
+                            "Support": 25074.43404580657,
+                            "firstFuture_Support": 25159.834045806572,
+                            "secondFuture_Support": 25269.334045806572,
+                            "thirdFuture_Support": 25426.93404580657
                         }
                     },
                     {
                         "Strike": 25100,
                         "Call": {
-                            "ImpliedVolatility": 6.337412856645535,
-                            "Delta": 0.9752414702793697,
-                            "Theta": -7.691781211820562,
-                            "Vega": 1.892096503383863,
-                            "Gamma": 0.0002802675426684613,
-                            "Rho": 4.01391643734526,
-                            "ChngOi": 430,
-                            "OiChng": -108,
-                            "Oi": 2472,
-                            "Volume": 33406,
-                            "ChngVolume": 220,
-                            "ChngLtp": 15.799999999999955,
-                            "Ltp": 404.15,
+                            "ImpliedVolatility": 7.842974189043997,
+                            "Delta": 0.9223879834013616,
+                            "Theta": -9.370951781332922,
+                            "Vega": 4.807527645947952,
+                            "Gamma": 0.0005598582914085634,
+                            "Rho": 3.909106089443262,
+                            "ChngOi": 980,
+                            "OiChng": 96,
+                            "Oi": 3022,
+                            "Volume": 7200,
+                            "ChngVolume": 190,
+                            "ChngLtp": -14.350000000000023,
+                            "Ltp": 374,
                             "breakerStatus": "Breaker Inactive",
-                            "Resistance": 25140.65725130726,
-                            "firstFuture_Resistance": 25231.65725130726,
-                            "secondFuture_Resistance": 25338.65725130726,
-                            "thirdFuture_Resistance": 25489.65725130726
+                            "Resistance": 25142.069780073034,
+                            "firstFuture_Resistance": 25227.46978007303,
+                            "secondFuture_Resistance": 25336.96978007303,
+                            "thirdFuture_Resistance": 25494.569780073034
                         },
                         "Put": {
-                            "ImpliedVolatility": 11.978384404175012,
-                            "Delta": -0.14808494638128744,
-                            "Theta": -6.492691182137224,
-                            "Vega": 7.544896217682163,
-                            "Gamma": 0.0005912845719301312,
-                            "Rho": 0.6245212939640971,
-                            "Ltp": 30.1,
-                            "ChngLtp": -15.649999999999999,
-                            "Volume": 996929,
-                            "ChngVolume": 11643,
-                            "Oi": 51693,
-                            "ChngOi": 24768,
-                            "OiChng": -1336,
+                            "ImpliedVolatility": 11.974735884591732,
+                            "Delta": -0.17480204049259174,
+                            "Theta": -7.0254414362893245,
+                            "Vega": 8.523359201674413,
+                            "Gamma": 0.0006501026821913186,
+                            "Rho": 0.7591841430388875,
+                            "Ltp": 37.55,
+                            "ChngLtp": -8.200000000000003,
+                            "Volume": 338290,
+                            "ChngVolume": 2991,
+                            "Oi": 64864,
+                            "ChngOi": 37939,
+                            "OiChng": -9,
                             "breakerStatus": "Breaker Active",
-                            "Support": 25116.70877162212,
-                            "firstFuture_Support": 25207.70877162212,
-                            "secondFuture_Support": 25314.70877162212,
-                            "thirdFuture_Support": 25465.70877162212
+                            "Support": 25101.249583372395,
+                            "firstFuture_Support": 25186.649583372397,
+                            "secondFuture_Support": 25296.149583372397,
+                            "thirdFuture_Support": 25453.749583372395
                         }
                     },
                     {
                         "Strike": 25150,
                         "Call": {
-                            "ImpliedVolatility": 8.541009084744012,
-                            "Delta": 0.8993868673848061,
-                            "Theta": -10.270149953323747,
-                            "Vega": 5.753598106693852,
-                            "Gamma": 0.0006323708788819809,
-                            "Rho": 3.702873672458731,
-                            "ChngOi": 443,
-                            "OiChng": -47,
-                            "Oi": 981,
-                            "Volume": 20277,
-                            "ChngVolume": 137,
-                            "ChngLtp": 17,
-                            "Ltp": 365.65,
+                            "ImpliedVolatility": 8.339549107801037,
+                            "Delta": 0.8757447042598026,
+                            "Theta": -10.582829789524842,
+                            "Vega": 6.783060097660819,
+                            "Gamma": 0.0007428826308900798,
+                            "Rho": 3.715333280575789,
+                            "ChngOi": 457,
+                            "OiChng": -17,
+                            "Oi": 995,
+                            "Volume": 4934,
+                            "ChngVolume": 106,
+                            "ChngLtp": -16.599999999999966,
+                            "Ltp": 332.05,
                             "breakerStatus": "Breaker Inactive",
-                            "Resistance": 25183.183020456818,
-                            "firstFuture_Resistance": 25274.183020456818,
-                            "secondFuture_Resistance": 25381.183020456818,
-                            "thirdFuture_Resistance": 25532.183020456818
+                            "Resistance": 25179.62646785789,
+                            "firstFuture_Resistance": 25265.02646785789,
+                            "secondFuture_Resistance": 25374.52646785789,
+                            "thirdFuture_Resistance": 25532.12646785789
                         },
                         "Put": {
-                            "ImpliedVolatility": 11.78274778744659,
-                            "Delta": -0.17618009505534404,
-                            "Theta": -7.060155322193198,
-                            "Vega": 8.449289517204207,
-                            "Gamma": 0.000673155088644311,
-                            "Rho": 0.7431700405928819,
-                            "Ltp": 36.8,
-                            "ChngLtp": -18.5,
-                            "Volume": 646230,
-                            "ChngVolume": 11812,
-                            "Oi": 28814,
-                            "ChngOi": 17381,
-                            "OiChng": -4487,
+                            "ImpliedVolatility": 11.849115107890482,
+                            "Delta": -0.20722920342605533,
+                            "Theta": -7.6098811003304,
+                            "Vega": 9.461869099789748,
+                            "Gamma": 0.0007293367994609944,
+                            "Rho": 0.9002956579224084,
+                            "Ltp": 46.15,
+                            "ChngLtp": -9.149999999999999,
+                            "Volume": 199055,
+                            "ChngVolume": 1866,
+                            "Oi": 29796,
+                            "ChngOi": 18363,
+                            "OiChng": -44,
                             "breakerStatus": "Breaker Active",
-                            "Support": 25140.65725130726,
-                            "firstFuture_Support": 25231.65725130726,
-                            "secondFuture_Support": 25338.65725130726,
-                            "thirdFuture_Support": 25489.65725130726
+                            "Support": 25142.069780073034,
+                            "firstFuture_Support": 25227.46978007303,
+                            "secondFuture_Support": 25336.96978007303,
+                            "thirdFuture_Support": 25494.569780073034
                         }
                     },
                     {
                         "Strike": 25200,
                         "Call": {
-                            "ImpliedVolatility": 8.806048689427588,
-                            "Delta": 0.8563341899666599,
-                            "Theta": -11.311806846425375,
-                            "Vega": 7.392829683415264,
-                            "Gamma": 0.0007880815165151656,
-                            "Rho": 3.5296465741888694,
-                            "ChngOi": 1470,
-                            "OiChng": -226,
-                            "Oi": 7389,
-                            "Volume": 167743,
-                            "ChngVolume": 742,
-                            "ChngLtp": 14.699999999999989,
-                            "Ltp": 323.65,
+                            "ImpliedVolatility": 8.966409679154479,
+                            "Delta": 0.8169763506392277,
+                            "Theta": -11.970716302458142,
+                            "Vega": 8.773518181046482,
+                            "Gamma": 0.0008937011404563975,
+                            "Rho": 3.46854499674797,
+                            "ChngOi": 3732,
+                            "OiChng": 5,
+                            "Oi": 9651,
+                            "Volume": 47387,
+                            "ChngVolume": 382,
+                            "ChngLtp": -14.149999999999977,
+                            "Ltp": 294.8,
                             "breakerStatus": "Breaker Inactive",
-                            "Resistance": 25234.9390975524,
-                            "firstFuture_Resistance": 25325.9390975524,
-                            "secondFuture_Resistance": 25432.9390975524,
-                            "thirdFuture_Resistance": 25583.9390975524
+                            "Resistance": 25222.79434270537,
+                            "firstFuture_Resistance": 25308.19434270537,
+                            "secondFuture_Resistance": 25417.69434270537,
+                            "thirdFuture_Resistance": 25575.29434270537
                         },
                         "Put": {
-                            "ImpliedVolatility": 11.624967172701819,
-                            "Delta": -0.20921060242206535,
-                            "Theta": -7.623701225184431,
-                            "Vega": 9.385626054822216,
-                            "Gamma": 0.0007579019682254479,
-                            "Rho": 0.8827472751060796,
-                            "Ltp": 45.2,
-                            "ChngLtp": -21.700000000000003,
-                            "Volume": 1366644,
-                            "ChngVolume": 10356,
-                            "Oi": 69693,
-                            "ChngOi": 40571,
-                            "OiChng": -2126,
+                            "ImpliedVolatility": 11.803218655689948,
+                            "Delta": -0.2451268966921235,
+                            "Theta": -8.207803953170957,
+                            "Vega": 10.404858530644129,
+                            "Gamma": 0.0008051426580025641,
+                            "Rho": 1.0653822382249647,
+                            "Ltp": 57.2,
+                            "ChngLtp": -9.700000000000003,
+                            "Volume": 409103,
+                            "ChngVolume": 3240,
+                            "Oi": 57245,
+                            "ChngOi": 28123,
+                            "OiChng": -40,
                             "breakerStatus": "Breaker Active",
-                            "Support": 25183.183020456818,
-                            "firstFuture_Support": 25274.183020456818,
-                            "secondFuture_Support": 25381.183020456818,
-                            "thirdFuture_Support": 25532.183020456818
+                            "Support": 25179.62646785789,
+                            "firstFuture_Support": 25265.02646785789,
+                            "secondFuture_Support": 25374.52646785789,
+                            "thirdFuture_Support": 25532.12646785789
                         }
                     },
                     {
                         "Strike": 25250,
                         "Call": {
-                            "ImpliedVolatility": 8.411588690502501,
-                            "Delta": 0.8236968905227792,
-                            "Theta": -11.596774617701781,
-                            "Vega": 8.453022600818741,
-                            "Gamma": 0.0009433558020421392,
-                            "Rho": 3.4004813104285985,
-                            "ChngOi": 1064,
-                            "OiChng": -50,
-                            "Oi": 2185,
-                            "Volume": 109733,
-                            "ChngVolume": 508,
-                            "ChngLtp": 5.149999999999977,
-                            "Ltp": 278.7,
+                            "ImpliedVolatility": 9.24499065808595,
+                            "Delta": 0.7618585902137426,
+                            "Theta": -12.89289020676445,
+                            "Vega": 10.24281210508731,
+                            "Gamma": 0.0010119285272045854,
+                            "Rho": 3.237368666646259,
+                            "ChngOi": 2246,
+                            "OiChng": -12,
+                            "Oi": 3367,
+                            "Volume": 25519,
+                            "ChngVolume": 219,
+                            "ChngLtp": -15.350000000000023,
+                            "Ltp": 258.2,
                             "breakerStatus": "Breaker Inactive",
-                            "Resistance": 25269.574232429233,
-                            "firstFuture_Resistance": 25360.574232429237,
-                            "secondFuture_Resistance": 25467.574232429237,
-                            "thirdFuture_Resistance": 25618.574232429237
+                            "Resistance": 25267.88593587278,
+                            "firstFuture_Resistance": 25353.28593587278,
+                            "secondFuture_Resistance": 25462.78593587278,
+                            "thirdFuture_Resistance": 25620.38593587278
                         },
                         "Put": {
-                            "ImpliedVolatility": 11.503192673658674,
-                            "Delta": -0.24725557883964333,
-                            "Theta": -8.14748709801608,
-                            "Vega": 10.310925514281971,
-                            "Gamma": 0.0008414353987345096,
-                            "Rho": 1.043633276062205,
-                            "Ltp": 55.6,
-                            "ChngLtp": -24.999999999999993,
-                            "Volume": 972570,
-                            "ChngVolume": 6042,
-                            "Oi": 22371,
-                            "ChngOi": 9972,
-                            "OiChng": -674,
+                            "ImpliedVolatility": 11.74283084851576,
+                            "Delta": -0.286484021587308,
+                            "Theta": -8.678814762823338,
+                            "Vega": 11.261463429123115,
+                            "Gamma": 0.0008759092961534374,
+                            "Rho": 1.2456725460678504,
+                            "Ltp": 70.05,
+                            "ChngLtp": -10.549999999999997,
+                            "Volume": 301385,
+                            "ChngVolume": 3645,
+                            "Oi": 27911,
+                            "ChngOi": 15512,
+                            "OiChng": 84,
                             "breakerStatus": "Breaker Active",
-                            "Support": 25234.9390975524,
-                            "firstFuture_Support": 25325.9390975524,
-                            "secondFuture_Support": 25432.9390975524,
-                            "thirdFuture_Support": 25583.9390975524
+                            "Support": 25222.79434270537,
+                            "firstFuture_Support": 25308.19434270537,
+                            "secondFuture_Support": 25417.69434270537,
+                            "thirdFuture_Support": 25575.29434270537
                         }
                     },
                     {
                         "Strike": 25300,
                         "Call": {
-                            "ImpliedVolatility": 9.205328510379363,
-                            "Delta": 0.752609812475773,
-                            "Theta": -13.09691733874018,
-                            "Vega": 10.3139259447262,
-                            "Gamma": 0.001051783225616557,
-                            "Rho": 3.1082680511520624,
-                            "ChngOi": 4577,
-                            "OiChng": -983,
-                            "Oi": 13333,
-                            "Volume": 698921,
-                            "ChngVolume": 2359,
-                            "ChngLtp": 7.550000000000011,
-                            "Ltp": 247,
+                            "ImpliedVolatility": 9.386623800504253,
+                            "Delta": 0.7053350782832175,
+                            "Theta": -13.512614752629643,
+                            "Vega": 11.410811930574344,
+                            "Gamma": 0.0011103099836485637,
+                            "Rho": 2.999850179512312,
+                            "ChngOi": 13509,
+                            "OiChng": 2,
+                            "Oi": 22265,
+                            "Volume": 164552,
+                            "ChngVolume": 1204,
+                            "ChngLtp": -16.149999999999977,
+                            "Ltp": 223.3,
                             "breakerStatus": "Breaker Inactive",
-                            "Resistance": 25312.84865153012,
-                            "firstFuture_Resistance": 25403.84865153012,
-                            "secondFuture_Resistance": 25510.84865153012,
-                            "thirdFuture_Resistance": 25661.84865153012
+                            "Resistance": 25313.570305049874,
+                            "firstFuture_Resistance": 25398.970305049872,
+                            "secondFuture_Resistance": 25508.470305049872,
+                            "thirdFuture_Resistance": 25666.070305049878
                         },
                         "Put": {
-                            "ImpliedVolatility": 11.339798812318223,
-                            "Delta": -0.2888676487018944,
-                            "Theta": -8.50837167545123,
-                            "Vega": 11.151754113522749,
-                            "Gamma": 0.0009231650595633652,
-                            "Rho": 1.219681974751154,
-                            "Ltp": 67.45,
-                            "ChngLtp": -29.349999999999994,
-                            "Volume": 2087489,
-                            "ChngVolume": 17208,
-                            "Oi": 62225,
-                            "ChngOi": 31287,
-                            "OiChng": -2509,
+                            "ImpliedVolatility": 11.739086617193397,
+                            "Delta": -0.3320036212739399,
+                            "Theta": -9.066576884269399,
+                            "Vega": 12.012059762599076,
+                            "Gamma": 0.0009345881862636751,
+                            "Rho": 1.4443637934294582,
+                            "Ltp": 85.7,
+                            "ChngLtp": -11.099999999999994,
+                            "Volume": 642133,
+                            "ChngVolume": 5281,
+                            "Oi": 69616,
+                            "ChngOi": 38678,
+                            "OiChng": -72,
                             "breakerStatus": "Breaker Active",
-                            "Support": 25269.574232429233,
-                            "firstFuture_Support": 25360.574232429237,
-                            "secondFuture_Support": 25467.574232429237,
-                            "thirdFuture_Support": 25618.574232429237
+                            "Support": 25267.88593587278,
+                            "firstFuture_Support": 25353.28593587278,
+                            "secondFuture_Support": 25462.78593587278,
+                            "thirdFuture_Support": 25620.38593587278
                         }
                     },
                     {
                         "Strike": 25350,
                         "Call": {
-                            "ImpliedVolatility": 9.380596164108603,
-                            "Delta": 0.6935736284329679,
-                            "Theta": -13.738356667859252,
-                            "Vega": 11.456199725971024,
-                            "Gamma": 0.001146440869120649,
-                            "Rho": 2.866852682841122,
-                            "ChngOi": 9321,
-                            "OiChng": -862,
-                            "Oi": 13034,
-                            "Volume": 946704,
-                            "ChngVolume": 2199,
-                            "ChngLtp": 4.400000000000006,
-                            "Ltp": 213,
+                            "ImpliedVolatility": 9.570135661179387,
+                            "Delta": 0.6447518501873502,
+                            "Theta": -13.973500326303634,
+                            "Vega": 12.321754815621853,
+                            "Gamma": 0.0011759573703844113,
+                            "Rho": 2.7442377766331716,
+                            "ChngOi": 14550,
+                            "OiChng": 93,
+                            "Oi": 18263,
+                            "Volume": 202330,
+                            "ChngVolume": 1885,
+                            "ChngLtp": -16.599999999999994,
+                            "Ltp": 192,
                             "breakerStatus": "Breaker Inactive",
-                            "Resistance": 25362.766259860622,
-                            "firstFuture_Resistance": 25453.766259860626,
-                            "secondFuture_Resistance": 25560.766259860626,
-                            "thirdFuture_Resistance": 25711.766259860626
+                            "Resistance": 25361.288361737366,
+                            "firstFuture_Resistance": 25446.68836173736,
+                            "secondFuture_Resistance": 25556.18836173736,
+                            "thirdFuture_Resistance": 25713.788361737366
                         },
                         "Put": {
-                            "ImpliedVolatility": 11.342833676003337,
-                            "Delta": -0.3369624170908463,
-                            "Theta": -8.89564755710478,
-                            "Vega": 11.917753065131695,
-                            "Gamma": 0.000986312056475708,
-                            "Rho": 1.42351926611825,
-                            "Ltp": 83.35,
-                            "ChngLtp": -32.150000000000006,
-                            "Volume": 1730068,
-                            "ChngVolume": 10611,
-                            "Oi": 33645,
-                            "ChngOi": 25879,
-                            "OiChng": -2116,
+                            "ImpliedVolatility": 11.766996715479246,
+                            "Delta": -0.3803803203045484,
+                            "Theta": -9.313597683572576,
+                            "Vega": 12.602593010301739,
+                            "Gamma": 0.0009782084024466638,
+                            "Rho": 1.6558256269280704,
+                            "Ltp": 104.1,
+                            "ChngLtp": -11.400000000000006,
+                            "Volume": 485851,
+                            "ChngVolume": 3866,
+                            "Oi": 41806,
+                            "ChngOi": 34040,
+                            "OiChng": -419,
                             "breakerStatus": "Breaker Active",
-                            "Support": 25312.84865153012,
-                            "firstFuture_Support": 25403.84865153012,
-                            "secondFuture_Support": 25510.84865153012,
-                            "thirdFuture_Support": 25661.84865153012
+                            "Support": 25313.570305049874,
+                            "firstFuture_Support": 25398.970305049872,
+                            "secondFuture_Support": 25508.470305049872,
+                            "thirdFuture_Support": 25666.070305049878
                         }
                     },
                     {
                         "Strike": 25400,
                         "Call": {
-                            "ImpliedVolatility": 9.281147838312668,
-                            "Delta": 0.6352086502481424,
-                            "Theta": -13.871890945144617,
-                            "Vega": 12.26566898471407,
-                            "Gamma": 0.001240597988749329,
-                            "Rho": 2.6282702306596435,
-                            "ChngOi": 25206,
-                            "OiChng": -4335,
-                            "Oi": 56522,
-                            "Volume": 2745054,
-                            "ChngVolume": 12306,
-                            "ChngLtp": -0.75,
-                            "Ltp": 178.85,
+                            "ImpliedVolatility": 9.682379738359362,
+                            "Delta": 0.5834295475780462,
+                            "Theta": -14.127369290328451,
+                            "Vega": 12.910814847194905,
+                            "Gamma": 0.0012178916456606367,
+                            "Rho": 2.485052740410302,
+                            "ChngOi": 84244,
+                            "OiChng": 465,
+                            "Oi": 115560,
+                            "Volume": 1012465,
+                            "ChngVolume": 9930,
+                            "ChngLtp": -16.599999999999994,
+                            "Ltp": 163,
                             "breakerStatus": "Breaker Inactive",
-                            "Resistance": 25409.54305959936,
-                            "firstFuture_Resistance": 25500.54305959936,
-                            "secondFuture_Resistance": 25607.54305959936,
-                            "thirdFuture_Resistance": 25758.54305959936
+                            "Resistance": 25409.63610661445,
+                            "firstFuture_Resistance": 25495.036106614447,
+                            "secondFuture_Resistance": 25604.536106614447,
+                            "thirdFuture_Resistance": 25762.136106614453
                         },
                         "Put": {
-                            "ImpliedVolatility": 11.302826112919929,
-                            "Delta": -0.38735850811242156,
-                            "Theta": -9.046486106199097,
-                            "Vega": 12.498312271088107,
-                            "Gamma": 0.0010380203032226355,
-                            "Rho": 1.6373055361401123,
-                            "Ltp": 101.2,
-                            "ChngLtp": -35.10000000000001,
-                            "Volume": 3283637,
-                            "ChngVolume": 22802,
-                            "Oi": 73318,
-                            "ChngOi": 32361,
-                            "OiChng": -6374,
+                            "ImpliedVolatility": 11.780770720007553,
+                            "Delta": -0.43028935108919564,
+                            "Theta": -9.351483315898523,
+                            "Vega": 12.998487873104796,
+                            "Gamma": 0.001007757965171484,
+                            "Rho": 1.8742764166617214,
+                            "Ltp": 124.8,
+                            "ChngLtp": -11.500000000000014,
+                            "Volume": 1330168,
+                            "ChngVolume": 11125,
+                            "Oi": 121074,
+                            "ChngOi": 80117,
+                            "OiChng": -1617,
                             "breakerStatus": "Breaker Active",
-                            "Support": 25362.766259860622,
-                            "firstFuture_Support": 25453.766259860626,
-                            "secondFuture_Support": 25560.766259860626,
-                            "thirdFuture_Support": 25711.766259860626
+                            "Support": 25361.288361737366,
+                            "firstFuture_Support": 25446.68836173736,
+                            "secondFuture_Support": 25556.18836173736,
+                            "thirdFuture_Support": 25713.788361737366
                         }
                     },
                     {
                         "Strike": 25450,
                         "Call": {
-                            "ImpliedVolatility": 9.40230441421347,
-                            "Delta": 0.5707241065194234,
-                            "Theta": -13.984833822911737,
-                            "Vega": 12.815700478372936,
-                            "Gamma": 0.0012795273219631436,
-                            "Rho": 2.363130927748428,
-                            "ChngOi": 17709,
-                            "OiChng": -3305,
-                            "Oi": 32478,
-                            "Volume": 1673029,
-                            "ChngVolume": 10444,
-                            "ChngLtp": -2.8499999999999943,
-                            "Ltp": 150.5,
-                            "breakerStatus": "Breaker Inactive",
-                            "Resistance": 25457.24952076229,
-                            "firstFuture_Resistance": 25548.249520762285,
-                            "secondFuture_Resistance": 25655.249520762285,
-                            "thirdFuture_Resistance": 25806.249520762285
+                            "ImpliedVolatility": 9.780182796612062,
+                            "Delta": 0.5216145573024042,
+                            "Theta": -14.01986751095921,
+                            "Vega": 13.181155053170311,
+                            "Gamma": 0.0012309590526950124,
+                            "Rho": 2.2232461164184922,
+                            "ChngOi": 52662,
+                            "OiChng": -42,
+                            "Oi": 67431,
+                            "Volume": 668832,
+                            "ChngVolume": 6571,
+                            "ChngLtp": -16.400000000000006,
+                            "Ltp": 136.95,
+                            "breakerStatus": "Breaker Active",
+                            "Resistance": 25459.829859198224,
+                            "firstFuture_Resistance": 25545.229859198218,
+                            "secondFuture_Resistance": 25654.729859198218,
+                            "thirdFuture_Resistance": 25812.329859198224
                         },
                         "Put": {
-                            "ImpliedVolatility": 11.35483036840988,
-                            "Delta": -0.44043744931051954,
-                            "Theta": -9.081482800383872,
-                            "Vega": 12.875455326562054,
-                            "Gamma": 0.0010644455945670373,
-                            "Rho": 1.8629328528106675,
-                            "Ltp": 122.8,
-                            "ChngLtp": -37.500000000000014,
-                            "Volume": 1261697,
-                            "ChngVolume": 11599,
-                            "Oi": 33874,
-                            "ChngOi": 22538,
-                            "OiChng": -766,
+                            "ImpliedVolatility": 11.871946003847148,
+                            "Delta": -0.4812015671526957,
+                            "Theta": -9.26595981001409,
+                            "Vega": 13.185876760516864,
+                            "Gamma": 0.0010144349643082771,
+                            "Rho": 2.097649029853243,
+                            "Ltp": 149.05,
+                            "ChngLtp": -11.25,
+                            "Volume": 546047,
+                            "ChngVolume": 4779,
+                            "Oi": 41240,
+                            "ChngOi": 29904,
+                            "OiChng": -191,
                             "breakerStatus": "Breaker Active",
-                            "Support": 25409.54305959936,
-                            "firstFuture_Support": 25500.54305959936,
-                            "secondFuture_Support": 25607.54305959936,
-                            "thirdFuture_Support": 25758.54305959936
+                            "Support": 25409.63610661445,
+                            "firstFuture_Support": 25495.036106614447,
+                            "secondFuture_Support": 25604.536106614447,
+                            "thirdFuture_Support": 25762.136106614453
                         }
                     },
                     {
                         "Strike": 25500,
                         "Call": {
-                            "ImpliedVolatility": 9.593653710914914,
-                            "Delta": 0.5061082519169786,
-                            "Theta": -13.907988819185242,
-                            "Vega": 13.0193227978404,
-                            "Gamma": 0.0012739309234120414,
-                            "Rho": 2.096752070185446,
-                            "ChngOi": 18460,
-                            "OiChng": -3848,
-                            "Oi": 103100,
-                            "Volume": 2340871,
-                            "ChngVolume": 19429,
-                            "ChngLtp": -3.6500000000000057,
-                            "Ltp": 126.35,
+                            "ImpliedVolatility": 9.86386210728211,
+                            "Delta": 0.460559923675324,
+                            "Theta": -13.654114838184617,
+                            "Vega": 13.135973374885653,
+                            "Gamma": 0.00121633268448639,
+                            "Rho": 1.964222840870757,
+                            "ChngOi": 62988,
+                            "OiChng": 330,
+                            "Oi": 147628,
+                            "Volume": 782169,
+                            "ChngVolume": 7501,
+                            "ChngLtp": -16.200000000000003,
+                            "Ltp": 113.8,
                             "breakerStatus": "Breaker Active",
-                            "Resistance": 25508.018560970213,
-                            "firstFuture_Resistance": 25599.018560970217,
-                            "secondFuture_Resistance": 25706.018560970217,
-                            "thirdFuture_Resistance": 25857.018560970217
+                            "Resistance": 25510.67972741367,
+                            "firstFuture_Resistance": 25596.079727413664,
+                            "secondFuture_Resistance": 25705.579727413664,
+                            "thirdFuture_Resistance": 25863.17972741367
                         },
                         "Put": {
-                            "ImpliedVolatility": 11.411614898926835,
-                            "Delta": -0.4940092042517711,
-                            "Theta": -8.898980113016213,
-                            "Vega": 13.019380931621935,
-                            "Gamma": 0.0010709883580122437,
-                            "Rho": 2.091073957085527,
-                            "Ltp": 147.15,
-                            "ChngLtp": -39.69999999999999,
-                            "Volume": 1168060,
-                            "ChngVolume": 11060,
-                            "Oi": 60438,
-                            "ChngOi": 127,
-                            "OiChng": -2437,
-                            "breakerStatus": "Breaker Active",
-                            "Support": 25457.24952076229,
-                            "firstFuture_Support": 25548.249520762285,
-                            "secondFuture_Support": 25655.249520762285,
-                            "thirdFuture_Support": 25806.249520762285
+                            "ImpliedVolatility": 11.944838484922569,
+                            "Delta": -0.5316027124311099,
+                            "Theta": -8.959492419815414,
+                            "Vega": 13.159094726202488,
+                            "Gamma": 0.0010061965904148255,
+                            "Rho": 2.319210242695056,
+                            "Ltp": 175.6,
+                            "ChngLtp": -11.25,
+                            "Volume": 470282,
+                            "ChngVolume": 3990,
+                            "Oi": 83819,
+                            "ChngOi": 23508,
+                            "OiChng": 129,
+                            "breakerStatus": "Breaker Inactive",
+                            "Support": 25459.829859198224,
+                            "firstFuture_Support": 25545.229859198218,
+                            "secondFuture_Support": 25654.729859198218,
+                            "thirdFuture_Support": 25812.329859198224
                         }
                     },
                     {
                         "Strike": 25550,
                         "Call": {
-                            "ImpliedVolatility": 9.608124087434488,
-                            "Delta": 0.44285485732396457,
-                            "Theta": -13.38287783023188,
-                            "Vega": 12.88703770205585,
-                            "Gamma": 0.0012590878090920996,
-                            "Rho": 1.8359257305512025,
-                            "ChngOi": 9581,
-                            "OiChng": -1842,
-                            "Oi": 31431,
-                            "Volume": 967977,
-                            "ChngVolume": 8434,
-                            "ChngLtp": -5.900000000000006,
-                            "Ltp": 103.1,
+                            "ImpliedVolatility": 9.917488196456501,
+                            "Delta": 0.40122753538013745,
+                            "Theta": -13.029086659363832,
+                            "Vega": 12.793848858068301,
+                            "Gamma": 0.0011782477887689665,
+                            "Rho": 1.7121763325162602,
+                            "ChngOi": 25196,
+                            "OiChng": 18,
+                            "Oi": 47046,
+                            "Volume": 330276,
+                            "ChngVolume": 3526,
+                            "ChngLtp": -15.75,
+                            "Ltp": 93.25,
                             "breakerStatus": "Breaker Active",
-                            "Resistance": 25558.77132287484,
-                            "firstFuture_Resistance": 25649.77132287484,
-                            "secondFuture_Resistance": 25756.77132287484,
-                            "thirdFuture_Resistance": 25907.77132287484
+                            "Resistance": 25562.4352750938,
+                            "firstFuture_Resistance": 25647.8352750938,
+                            "secondFuture_Resistance": 25757.3352750938,
+                            "thirdFuture_Resistance": 25914.935275093805
                         },
                         "Put": {
-                            "ImpliedVolatility": 11.594750147644042,
-                            "Delta": -0.5464825161145674,
-                            "Theta": -8.639752831934377,
-                            "Vega": 12.932365988822898,
-                            "Gamma": 0.0010470275646907439,
-                            "Rho": 2.315325872260582,
-                            "Ltp": 175.8,
-                            "ChngLtp": -39.94999999999999,
-                            "Volume": 184726,
-                            "ChngVolume": 1765,
-                            "Oi": 10918,
-                            "ChngOi": -643,
-                            "OiChng": -361,
+                            "ImpliedVolatility": 12.077406782516348,
+                            "Delta": -0.580381961565927,
+                            "Theta": -8.530532401331124,
+                            "Vega": 12.931665979791592,
+                            "Gamma": 0.0009779527991978585,
+                            "Rho": 2.5343369858554667,
+                            "Ltp": 205.4,
+                            "ChngLtp": -10.349999999999994,
+                            "Volume": 75563,
+                            "ChngVolume": 745,
+                            "Oi": 15064,
+                            "ChngOi": 3503,
+                            "OiChng": 57,
                             "breakerStatus": "Breaker Inactive",
-                            "Support": 25508.018560970213,
-                            "firstFuture_Support": 25599.018560970217,
-                            "secondFuture_Support": 25706.018560970217,
-                            "thirdFuture_Support": 25857.018560970217
+                            "Support": 25510.67972741367,
+                            "firstFuture_Support": 25596.079727413664,
+                            "secondFuture_Support": 25705.579727413664,
+                            "thirdFuture_Support": 25863.17972741367
                         }
                     },
                     {
                         "Strike": 25600,
                         "Call": {
-                            "ImpliedVolatility": 9.778237807597186,
-                            "Delta": 0.3832379512699576,
-                            "Theta": -12.805920566100072,
-                            "Vega": 12.459095898772324,
-                            "Gamma": 0.0011960999071560356,
-                            "Rho": 1.5894843112493782,
-                            "ChngOi": 17304,
-                            "OiChng": -4169,
-                            "Oi": 76238,
-                            "Volume": 1585336,
-                            "ChngVolume": 15249,
-                            "ChngLtp": -5.949999999999989,
-                            "Ltp": 84.9,
+                            "ImpliedVolatility": 9.990784539184382,
+                            "Delta": 0.34509913534475756,
+                            "Theta": -12.232949623181932,
+                            "Vega": 12.192510323927802,
+                            "Gamma": 0.0011146297970580123,
+                            "Rho": 1.473403335093636,
+                            "ChngOi": 43222,
+                            "OiChng": 315,
+                            "Oi": 102156,
+                            "Volume": 534595,
+                            "ChngVolume": 5623,
+                            "ChngLtp": -15.049999999999997,
+                            "Ltp": 75.8,
                             "breakerStatus": "Breaker Active",
-                            "Resistance": 25608.5400693114,
-                            "firstFuture_Resistance": 25699.5400693114,
-                            "secondFuture_Resistance": 25806.5400693114,
-                            "thirdFuture_Resistance": 25957.5400693114
+                            "Resistance": 25615.154454301697,
+                            "firstFuture_Resistance": 25700.554454301695,
+                            "secondFuture_Resistance": 25810.054454301695,
+                            "thirdFuture_Resistance": 25967.6544543017
                         },
                         "Put": {
-                            "ImpliedVolatility": 11.581867436732175,
-                            "Delta": -0.5981672721176694,
-                            "Theta": -7.960347608513786,
-                            "Vega": 12.624625433507497,
-                            "Gamma": 0.001023249250104485,
-                            "Rho": 2.536286751107567,
-                            "Ltp": 204.5,
-                            "ChngLtp": -42.94999999999999,
-                            "Volume": 250234,
-                            "ChngVolume": 3779,
-                            "Oi": 18605,
-                            "ChngOi": -2523,
-                            "OiChng": -782,
+                            "ImpliedVolatility": 12.227272719689884,
+                            "Delta": -0.6266659874736697,
+                            "Theta": -7.958320831333918,
+                            "Vega": 12.52944087052721,
+                            "Gamma": 0.0009359210212362472,
+                            "Rho": 2.7391494800834346,
+                            "Ltp": 237.75,
+                            "ChngLtp": -9.699999999999989,
+                            "Volume": 94641,
+                            "ChngVolume": 885,
+                            "Oi": 23621,
+                            "ChngOi": 2493,
+                            "OiChng": -9,
                             "breakerStatus": "Breaker Inactive",
-                            "Support": 25558.77132287484,
-                            "firstFuture_Support": 25649.77132287484,
-                            "secondFuture_Support": 25756.77132287484,
-                            "thirdFuture_Support": 25907.77132287484
+                            "Support": 25562.4352750938,
+                            "firstFuture_Support": 25647.8352750938,
+                            "secondFuture_Support": 25757.3352750938,
+                            "thirdFuture_Support": 25914.935275093805
                         }
                     },
                     {
                         "Strike": 25650,
                         "Call": {
-                            "ImpliedVolatility": 9.832678792618035,
-                            "Delta": 0.3263273457621323,
-                            "Theta": -11.902478371387243,
-                            "Vega": 11.766623711241168,
-                            "Gamma": 0.0011233666749466478,
-                            "Rho": 1.354135768526429,
-                            "ChngOi": 5440,
-                            "OiChng": -1457,
-                            "Oi": 25054,
-                            "Volume": 682641,
-                            "ChngVolume": 6164,
-                            "ChngLtp": -6.700000000000003,
-                            "Ltp": 68.1,
+                            "ImpliedVolatility": 10.02989140372912,
+                            "Delta": 0.29237892197744786,
+                            "Theta": -11.241161428931331,
+                            "Vega": 11.36972937880805,
+                            "Gamma": 0.001035359104345569,
+                            "Rho": 1.2489272689275435,
+                            "ChngOi": 23689,
+                            "OiChng": -337,
+                            "Oi": 43303,
+                            "Volume": 234336,
+                            "ChngVolume": 2923,
+                            "ChngLtp": -14.199999999999996,
+                            "Ltp": 60.6,
                             "breakerStatus": "Breaker Active",
-                            "Resistance": 25660.644340228613,
-                            "firstFuture_Resistance": 25751.64434022861,
-                            "secondFuture_Resistance": 25858.64434022861,
-                            "thirdFuture_Resistance": 26009.64434022861
+                            "Resistance": 25669.958403879293,
+                            "firstFuture_Resistance": 25755.35840387929,
+                            "secondFuture_Resistance": 25864.85840387929,
+                            "thirdFuture_Resistance": 26022.45840387929
                         },
                         "Put": {
-                            "ImpliedVolatility": 11.800833629797545,
-                            "Delta": -0.6453142393962951,
-                            "Theta": -7.382923114520395,
-                            "Vega": 12.147204226335656,
-                            "Gamma": 0.0009662848460636432,
-                            "Rho": 2.739141047377987,
-                            "Ltp": 238.55,
-                            "ChngLtp": -43.44999999999999,
-                            "Volume": 34827,
-                            "ChngVolume": 322,
-                            "Oi": 3575,
-                            "ChngOi": -44,
-                            "OiChng": -94,
+                            "ImpliedVolatility": 12.522203948713504,
+                            "Delta": -0.6681340873828557,
+                            "Theta": -7.432482130806355,
+                            "Vega": 12.010079563556674,
+                            "Gamma": 0.0008759961984806938,
+                            "Rho": 2.9238818358747056,
+                            "Ltp": 274,
+                            "ChngLtp": -8,
+                            "Volume": 15531,
+                            "ChngVolume": 202,
+                            "Oi": 4526,
+                            "ChngOi": 907,
+                            "OiChng": -28,
                             "breakerStatus": "Breaker Inactive",
-                            "Support": 25608.5400693114,
-                            "firstFuture_Support": 25699.5400693114,
-                            "secondFuture_Support": 25806.5400693114,
-                            "thirdFuture_Support": 25957.5400693114
+                            "Support": 25615.154454301697,
+                            "firstFuture_Support": 25700.554454301695,
+                            "secondFuture_Support": 25810.054454301695,
+                            "thirdFuture_Support": 25967.6544543017
                         }
                     },
                     {
                         "Strike": 25700,
                         "Call": {
-                            "ImpliedVolatility": 9.958304729674868,
-                            "Delta": 0.2753229286272558,
-                            "Theta": -10.951511365028956,
-                            "Vega": 10.896822506752766,
-                            "Gamma": 0.0010272023121793035,
-                            "Rho": 1.1429312987784768,
-                            "ChngOi": 25410,
-                            "OiChng": -1498,
-                            "Oi": 83608,
-                            "Volume": 1257178,
-                            "ChngVolume": 12136,
-                            "ChngLtp": -6.25,
-                            "Ltp": 54.75,
+                            "ImpliedVolatility": 10.086510290995777,
+                            "Delta": 0.24457982763403546,
+                            "Theta": -10.166564189468335,
+                            "Vega": 10.392354206373403,
+                            "Gamma": 0.0009410443995253937,
+                            "Rho": 1.045196141308326,
+                            "ChngOi": 44101,
+                            "OiChng": -255,
+                            "Oi": 102299,
+                            "Volume": 399216,
+                            "ChngVolume": 3598,
+                            "ChngLtp": -12.950000000000003,
+                            "Ltp": 48.05,
                             "breakerStatus": "Breaker Active",
-                            "Resistance": 25713.524991531845,
-                            "firstFuture_Resistance": 25804.52499153184,
-                            "secondFuture_Resistance": 25911.52499153184,
-                            "thirdFuture_Resistance": 26062.52499153184
+                            "Resistance": 25722.908234712468,
+                            "firstFuture_Resistance": 25808.308234712465,
+                            "secondFuture_Resistance": 25917.808234712465,
+                            "thirdFuture_Resistance": 26075.40823471247
                         },
                         "Put": {
-                            "ImpliedVolatility": 12.043067154704977,
-                            "Delta": -0.688301349590059,
-                            "Theta": -6.7107614487579035,
-                            "Vega": 11.54198334483041,
-                            "Gamma": 0.0008996733547800543,
-                            "Rho": 2.9249852320610326,
-                            "Ltp": 275,
-                            "ChngLtp": -42.55000000000001,
-                            "Volume": 76668,
-                            "ChngVolume": 951,
-                            "Oi": 6370,
-                            "ChngOi": -938,
-                            "OiChng": -92,
+                            "ImpliedVolatility": 12.773250968310505,
+                            "Delta": -0.706447180317424,
+                            "Theta": -6.759602089095196,
+                            "Vega": 11.390888674103007,
+                            "Gamma": 0.0008145040947783361,
+                            "Rho": 3.0952466975629718,
+                            "Ltp": 311.55,
+                            "ChngLtp": -6,
+                            "Volume": 32894,
+                            "ChngVolume": 261,
+                            "Oi": 7827,
+                            "ChngOi": 519,
+                            "OiChng": 13,
                             "breakerStatus": "Breaker Inactive",
-                            "Support": 25660.644340228613,
-                            "firstFuture_Support": 25751.64434022861,
-                            "secondFuture_Support": 25858.64434022861,
-                            "thirdFuture_Support": 26009.64434022861
+                            "Support": 25669.958403879293,
+                            "firstFuture_Support": 25755.35840387929,
+                            "secondFuture_Support": 25864.85840387929,
+                            "thirdFuture_Support": 26022.45840387929
                         }
                     },
                     {
                         "Strike": 25750,
                         "Call": {
-                            "ImpliedVolatility": 10.050859913969752,
-                            "Delta": 0.22903359850669927,
-                            "Theta": -9.869924966077505,
-                            "Vega": 9.887243218603595,
-                            "Gamma": 0.000923450287416807,
-                            "Rho": 0.9511339190019623,
-                            "ChngOi": 9875,
-                            "OiChng": -1046,
-                            "Oi": 28181,
-                            "Volume": 634262,
-                            "ChngVolume": 8071,
-                            "ChngLtp": -6.100000000000001,
-                            "Ltp": 43.35,
+                            "ImpliedVolatility": 10.198606987880943,
+                            "Delta": 0.20317847523756608,
+                            "Theta": -9.116752845887216,
+                            "Vega": 9.351534571592897,
+                            "Gamma": 0.0008374890498927726,
+                            "Rho": 0.8685608849107203,
+                            "ChngOi": 15633,
+                            "OiChng": -130,
+                            "Oi": 33939,
+                            "Volume": 197533,
+                            "ChngVolume": 2697,
+                            "ChngLtp": -11.25,
+                            "Ltp": 38.2,
                             "breakerStatus": "Breaker Active",
-                            "Resistance": 25769.76737369729,
-                            "firstFuture_Resistance": 25860.767373697294,
-                            "secondFuture_Resistance": 25967.767373697294,
-                            "thirdFuture_Resistance": 26118.767373697294
+                            "Resistance": 25779.79929052376,
+                            "firstFuture_Resistance": 25865.199290523757,
+                            "secondFuture_Resistance": 25974.699290523757,
+                            "thirdFuture_Resistance": 26132.299290523755
                         },
                         "Put": {
-                            "ImpliedVolatility": 12.494282869190426,
-                            "Delta": -0.7237749746950891,
-                            "Theta": -6.232623768283154,
-                            "Vega": 10.91435410209477,
-                            "Gamma": 0.0008200271449563462,
-                            "Rho": 3.0800755766192127,
-                            "Ltp": 315.6,
-                            "ChngLtp": -40.049999999999955,
-                            "Volume": 7824,
-                            "ChngVolume": 74,
-                            "Oi": 1706,
-                            "ChngOi": 26,
-                            "OiChng": 9,
+                            "ImpliedVolatility": 13.303474703014503,
+                            "Delta": -0.7366218188190041,
+                            "Theta": -6.395128029629264,
+                            "Vega": 10.804200061105343,
+                            "Gamma": 0.0007417620993789038,
+                            "Rho": 3.23234927830704,
+                            "Ltp": 353.75,
+                            "ChngLtp": -1.8999999999999773,
+                            "Volume": 3083,
+                            "ChngVolume": 61,
+                            "Oi": 1768,
+                            "ChngOi": 88,
+                            "OiChng": -27,
                             "breakerStatus": "Breaker Inactive",
-                            "Support": 25713.524991531845,
-                            "firstFuture_Support": 25804.52499153184,
-                            "secondFuture_Support": 25911.52499153184,
-                            "thirdFuture_Support": 26062.52499153184
+                            "Support": 25722.908234712468,
+                            "firstFuture_Support": 25808.308234712465,
+                            "secondFuture_Support": 25917.808234712465,
+                            "thirdFuture_Support": 26075.40823471247
                         }
                     },
                     {
                         "Strike": 25800,
                         "Call": {
-                            "ImpliedVolatility": 10.142577314965111,
-                            "Delta": 0.1882384826466654,
-                            "Theta": -8.749545395116215,
-                            "Vega": 8.806277266174533,
-                            "Gamma": 0.0008150524389876151,
-                            "Rho": 0.7819870136526736,
-                            "ChngOi": 20856,
-                            "OiChng": -1139,
-                            "Oi": 66100,
-                            "Volume": 1226981,
-                            "ChngVolume": 10151,
-                            "ChngLtp": -6,
-                            "Ltp": 34,
+                            "ImpliedVolatility": 10.347435183845496,
+                            "Delta": 0.1679686730261633,
+                            "Theta": -8.113739506653438,
+                            "Vega": 8.308842511405409,
+                            "Gamma": 0.0007334067833071693,
+                            "Rho": 0.7182351279700022,
+                            "ChngOi": 34093,
+                            "OiChng": -204,
+                            "Oi": 79337,
+                            "Volume": 435561,
+                            "ChngVolume": 4688,
+                            "ChngLtp": -9.55,
+                            "Ltp": 30.45,
                             "breakerStatus": "Breaker Active",
-                            "Resistance": 25822.831288449517,
-                            "firstFuture_Resistance": 25913.831288449517,
-                            "secondFuture_Resistance": 26020.831288449517,
-                            "thirdFuture_Resistance": 26171.831288449517
+                            "Resistance": 25828.95244643562,
+                            "firstFuture_Resistance": 25914.352446435616,
+                            "secondFuture_Resistance": 26023.852446435616,
+                            "thirdFuture_Resistance": 26181.452446435615
                         },
                         "Put": {
-                            "ImpliedVolatility": 12.836898635422811,
-                            "Delta": -0.7566878759993826,
-                            "Theta": -5.562880690500733,
-                            "Vega": 10.222192782342166,
-                            "Gamma": 0.0007475245813462753,
-                            "Rho": 3.224493148110601,
-                            "Ltp": 356.45,
-                            "ChngLtp": -39.55000000000001,
-                            "Volume": 26102,
-                            "ChngVolume": 373,
-                            "Oi": 4809,
-                            "ChngOi": -307,
-                            "OiChng": -43,
+                            "ImpliedVolatility": 13.425141808261557,
+                            "Delta": -0.7697694607449128,
+                            "Theta": -5.444321658710975,
+                            "Vega": 10.05299565505873,
+                            "Gamma": 0.0006839332579402938,
+                            "Rho": 3.3817390543804144,
+                            "Ltp": 392.9,
+                            "ChngLtp": -3.1000000000000227,
+                            "Volume": 9279,
+                            "ChngVolume": 131,
+                            "Oi": 5539,
+                            "ChngOi": 423,
+                            "OiChng": 21,
                             "breakerStatus": "Breaker Inactive",
-                            "Support": 25769.76737369729,
-                            "firstFuture_Support": 25860.767373697294,
-                            "secondFuture_Support": 25967.767373697294,
-                            "thirdFuture_Support": 26118.767373697294
+                            "Support": 25779.79929052376,
+                            "firstFuture_Support": 25865.199290523757,
+                            "secondFuture_Support": 25974.699290523757,
+                            "thirdFuture_Support": 26132.299290523755
                         }
                     },
                     {
                         "Strike": 25850,
                         "Call": {
-                            "ImpliedVolatility": 10.288835687784118,
-                            "Delta": 0.15423390031346498,
-                            "Theta": -7.7173406732927425,
-                            "Vega": 7.75191116759322,
-                            "Gamma": 0.0007072681136263044,
-                            "Rho": 0.6408896111854412,
-                            "ChngOi": 6171,
-                            "OiChng": -449,
-                            "Oi": 19098,
-                            "Volume": 462818,
-                            "ChngVolume": 3871,
-                            "ChngLtp": -5.149999999999999,
-                            "Ltp": 26.85,
+                            "ImpliedVolatility": 10.481614970612359,
+                            "Delta": 0.13749355841493752,
+                            "Theta": -7.116907438384826,
+                            "Vega": 7.2747367228315705,
+                            "Gamma": 0.0006339079348362092,
+                            "Rho": 0.5880716323365401,
+                            "ChngOi": 10889,
+                            "OiChng": -121,
+                            "Oi": 23816,
+                            "Volume": 157121,
+                            "ChngVolume": 1597,
+                            "ChngLtp": -7.949999999999999,
+                            "Ltp": 24.05,
                             "breakerStatus": "Breaker Active",
-                            "Resistance": 25869.134621857735,
-                            "firstFuture_Resistance": 25960.13462185774,
-                            "secondFuture_Resistance": 26067.13462185774,
-                            "thirdFuture_Resistance": 26218.13462185774
+                            "Resistance": 25876.961892996733,
+                            "firstFuture_Resistance": 25962.361892996727,
+                            "secondFuture_Resistance": 26071.861892996727,
+                            "thirdFuture_Resistance": 26229.461892996733
                         },
                         "Put": {
-                            "ImpliedVolatility": 12.846361251151034,
-                            "Delta": -0.7918144889401608,
-                            "Theta": -4.390292656156975,
-                            "Vega": 9.358493870198345,
-                            "Gamma": 0.000683860237532561,
-                            "Rho": 3.3778687017717055,
-                            "Ltp": 395.45,
-                            "ChngLtp": -41.69999999999999,
-                            "Volume": 2085,
-                            "ChngVolume": 38,
-                            "Oi": 1344,
-                            "ChngOi": -21,
-                            "OiChng": -22,
+                            "ImpliedVolatility": 13.539640382499742,
+                            "Delta": -0.799983504145308,
+                            "Theta": -4.452096532723683,
+                            "Vega": 9.264073983644101,
+                            "Gamma": 0.0006249308941852269,
+                            "Rho": 3.518731821369835,
+                            "Ltp": 433.45,
+                            "ChngLtp": -3.6999999999999886,
+                            "Volume": 763,
+                            "ChngVolume": 3,
+                            "Oi": 1388,
+                            "ChngOi": 23,
+                            "OiChng": 3,
                             "breakerStatus": "Breaker Inactive",
-                            "Support": 25822.831288449517,
-                            "firstFuture_Support": 25913.831288449517,
-                            "secondFuture_Support": 26020.831288449517,
-                            "thirdFuture_Support": 26171.831288449517
+                            "Support": 25828.95244643562,
+                            "firstFuture_Support": 25914.352446435616,
+                            "secondFuture_Support": 26023.852446435616,
+                            "thirdFuture_Support": 26181.452446435615
                         }
                     },
                     {
                         "Strike": 25900,
                         "Call": {
-                            "ImpliedVolatility": 10.43568808334282,
-                            "Delta": 0.12540737843302258,
-                            "Theta": -6.727221129658702,
-                            "Vega": 6.734015851334918,
-                            "Gamma": 0.0006057515968804828,
-                            "Rho": 0.5212267247523349,
-                            "ChngOi": 9895,
-                            "OiChng": 1666,
-                            "Oi": 59002,
-                            "Volume": 783034,
-                            "ChngVolume": 9342,
-                            "ChngLtp": -3.9499999999999993,
-                            "Ltp": 21.1,
+                            "ImpliedVolatility": 10.624068356260045,
+                            "Delta": 0.11188351855512327,
+                            "Theta": -6.184629241514345,
+                            "Vega": 6.298005421845096,
+                            "Gamma": 0.0005414386867953957,
+                            "Rho": 0.47864040884743636,
+                            "ChngOi": -523,
+                            "OiChng": -210,
+                            "Oi": 48584,
+                            "Volume": 290245,
+                            "ChngVolume": 3152,
+                            "ChngLtp": -6.100000000000001,
+                            "Ltp": 18.95,
                             "breakerStatus": "Breaker Active",
-                            "Resistance": 25933.68432768902,
-                            "firstFuture_Resistance": 26024.68432768902,
-                            "secondFuture_Resistance": 26131.68432768902,
-                            "thirdFuture_Resistance": 26282.68432768902
+                            "Resistance": 25937.886315540854,
+                            "firstFuture_Resistance": 26023.28631554085,
+                            "secondFuture_Resistance": 26132.78631554085,
+                            "thirdFuture_Resistance": 26290.386315540854
                         },
                         "Put": {
-                            "ImpliedVolatility": 13.909202359237241,
-                            "Delta": -0.8044697570166282,
-                            "Theta": -4.717584865560819,
-                            "Vega": 9.01356798175869,
-                            "Gamma": 0.0006083255202652935,
-                            "Rho": 3.4390089626949942,
-                            "Ltp": 445.3,
-                            "ChngLtp": -34.94999999999999,
-                            "Volume": 6075,
-                            "ChngVolume": 63,
-                            "Oi": 1165,
-                            "ChngOi": -192,
-                            "OiChng": -18,
+                            "ImpliedVolatility": 14.396177176536803,
+                            "Delta": -0.8142154317666359,
+                            "Theta": -4.505898363672665,
+                            "Vega": 8.855620644671204,
+                            "Gamma": 0.0005618351817111601,
+                            "Rho": 3.5882070355732534,
+                            "Ltp": 481.75,
+                            "ChngLtp": 1.5,
+                            "Volume": 2640,
+                            "ChngVolume": 15,
+                            "Oi": 1337,
+                            "ChngOi": -20,
+                            "OiChng": -4,
                             "breakerStatus": "Breaker Inactive",
-                            "Support": 25869.134621857735,
-                            "firstFuture_Support": 25960.13462185774,
-                            "secondFuture_Support": 26067.13462185774,
-                            "thirdFuture_Support": 26218.13462185774
+                            "Support": 25876.961892996733,
+                            "firstFuture_Support": 25962.361892996727,
+                            "secondFuture_Support": 26071.861892996727,
+                            "thirdFuture_Support": 26229.461892996733
                         }
                     },
                     {
                         "Strike": 25950,
                         "Call": {
-                            "ImpliedVolatility": 10.624477154524715,
-                            "Delta": 0.10216068299648236,
-                            "Theta": -5.860874203390675,
-                            "Vega": 5.817931841693194,
-                            "Gamma": 0.0005140467115627309,
-                            "Rho": 0.4246793096428029,
-                            "ChngOi": 19392,
-                            "OiChng": -377,
-                            "Oi": 31318,
-                            "Volume": 460757,
-                            "ChngVolume": 4213,
-                            "ChngLtp": -3.5,
-                            "Ltp": 16.75,
+                            "ImpliedVolatility": 10.799854095898638,
+                            "Delta": 0.09114322845373256,
+                            "Theta": -5.367403404865091,
+                            "Vega": 5.423899028347481,
+                            "Gamma": 0.00045870219424878433,
+                            "Rho": 0.3899785318229557,
+                            "ChngOi": 8650,
+                            "OiChng": 84,
+                            "Oi": 20576,
+                            "Volume": 124070,
+                            "ChngVolume": 3443,
+                            "ChngLtp": -5.199999999999999,
+                            "Ltp": 15.05,
                             "breakerStatus": "Breaker Active",
-                            "Resistance": 25971.24189724341,
-                            "firstFuture_Resistance": 26062.24189724341,
-                            "secondFuture_Resistance": 26169.24189724341,
-                            "thirdFuture_Resistance": 26320.24189724341
+                            "Resistance": 25982.573516892793,
+                            "firstFuture_Resistance": 26067.973516892795,
+                            "secondFuture_Resistance": 26177.473516892795,
+                            "thirdFuture_Resistance": 26335.073516892793
                         },
                         "Put": {
-                            "ImpliedVolatility": 13.591971507068124,
-                            "Delta": -0.8386236440937277,
-                            "Theta": -3.0659607284889145,
-                            "Vega": 7.9858590996543395,
-                            "Gamma": 0.0005515446941818881,
-                            "Rho": 3.5882407718232106,
-                            "Ltp": 483.85,
-                            "ChngLtp": -41.549999999999955,
-                            "Volume": 518,
-                            "ChngVolume": 17,
-                            "Oi": 209,
-                            "ChngOi": -4,
-                            "OiChng": 16,
+                            "ImpliedVolatility": 14.477467169859345,
+                            "Delta": -0.8391002214676553,
+                            "Theta": -3.4717482352531803,
+                            "Vega": 8.080454027801201,
+                            "Gamma": 0.000509777055943878,
+                            "Rho": 3.7025277364542637,
+                            "Ltp": 523.95,
+                            "ChngLtp": -1.4499999999999318,
+                            "Volume": 108,
+                            "ChngVolume": 1,
+                            "Oi": 214,
+                            "ChngOi": 1,
+                            "OiChng": 1,
                             "breakerStatus": "Breaker Inactive",
-                            "Support": 25933.68432768902,
-                            "firstFuture_Support": 26024.68432768902,
-                            "secondFuture_Support": 26131.68432768902,
-                            "thirdFuture_Support": 26282.68432768902
+                            "Support": 25937.886315540854,
+                            "firstFuture_Support": 26023.28631554085,
+                            "secondFuture_Support": 26132.78631554085,
+                            "thirdFuture_Support": 26290.386315540854
                         }
                     },
                     {
                         "Strike": 26000,
                         "Call": {
-                            "ImpliedVolatility": 10.837877561580417,
-                            "Delta": 0.08339001754718334,
-                            "Theta": -5.101199353199239,
-                            "Vega": 5.006445114252389,
-                            "Gamma": 0.0004336374103154239,
-                            "Rho": 0.3466949037022996,
-                            "ChngOi": 32370,
-                            "OiChng": -1220,
-                            "Oi": 115405,
-                            "Volume": 1201817,
-                            "ChngVolume": 14922,
-                            "ChngLtp": -2.700000000000001,
-                            "Ltp": 13.4,
+                            "ImpliedVolatility": 11.011728435917687,
+                            "Delta": 0.07463451351082954,
+                            "Theta": -4.6717177172835465,
+                            "Vega": 4.666476999962382,
+                            "Gamma": 0.0003870532753237061,
+                            "Rho": 0.31937991471824545,
+                            "ChngOi": 41802,
+                            "OiChng": 253,
+                            "Oi": 124837,
+                            "Volume": 428970,
+                            "ChngVolume": 3181,
+                            "ChngLtp": -4.000000000000002,
+                            "Ltp": 12.1,
                             "breakerStatus": "Breaker Active",
-                            "Resistance": 26021.316083924008,
-                            "firstFuture_Resistance": 26112.316083924008,
-                            "secondFuture_Resistance": 26219.316083924008,
-                            "thirdFuture_Resistance": 26370.316083924008
+                            "Resistance": 26044.48020459962,
+                            "firstFuture_Resistance": 26129.88020459962,
+                            "secondFuture_Resistance": 26239.38020459962,
+                            "thirdFuture_Resistance": 26396.98020459962
                         },
                         "Put": {
-                            "ImpliedVolatility": 13.874791494705457,
-                            "Delta": -0.8591545980870527,
-                            "Theta": -2.2988930214200445,
-                            "Vega": 7.294309325412624,
-                            "Gamma": 0.000493513723557335,
-                            "Rho": 3.681494172593392,
-                            "Ltp": 528.6,
-                            "ChngLtp": -41.549999999999955,
-                            "Volume": 16086,
-                            "ChngVolume": 244,
-                            "Oi": 6654,
-                            "ChngOi": -437,
-                            "OiChng": -111,
+                            "ImpliedVolatility": 15.450773929183246,
+                            "Delta": -0.8468097921622142,
+                            "Theta": -3.719440566863921,
+                            "Vega": 7.823638577085893,
+                            "Gamma": 0.0004624828697123555,
+                            "Rho": 3.7442094640653596,
+                            "Ltp": 574,
+                            "ChngLtp": 3.8500000000000227,
+                            "Volume": 5013,
+                            "ChngVolume": 10,
+                            "Oi": 7506,
+                            "ChngOi": 415,
+                            "OiChng": -3,
                             "breakerStatus": "Breaker Inactive",
-                            "Support": 25971.24189724341,
-                            "firstFuture_Support": 26062.24189724341,
-                            "secondFuture_Support": 26169.24189724341,
-                            "thirdFuture_Support": 26320.24189724341
+                            "Support": 25982.573516892793,
+                            "firstFuture_Support": 26067.973516892795,
+                            "secondFuture_Support": 26177.473516892795,
+                            "thirdFuture_Support": 26335.073516892793
                         }
                     },
                     {
                         "Strike": 26050,
                         "Call": {
-                            "ImpliedVolatility": 10.93941537727272,
-                            "Delta": 0.06594824095673726,
-                            "Theta": -4.27376212201051,
-                            "Vega": 4.18510356839851,
-                            "Gamma": 0.0003591315996431833,
-                            "Rho": 0.2742375895166738,
-                            "ChngOi": 8515,
-                            "OiChng": -488,
-                            "Oi": 17092,
-                            "Volume": 362394,
-                            "ChngVolume": 3015,
-                            "ChngLtp": -2.4499999999999993,
-                            "Ltp": 10.25,
+                            "ImpliedVolatility": 11.189818103659682,
+                            "Delta": 0.06046871602188426,
+                            "Theta": -4.006869254567584,
+                            "Vega": 3.9657221552641273,
+                            "Gamma": 0.0003236952798350861,
+                            "Rho": 0.2587953440546822,
+                            "ChngOi": 8850,
+                            "OiChng": 93,
+                            "Oi": 17427,
+                            "Volume": 142598,
+                            "ChngVolume": 2282,
+                            "ChngLtp": -3.0999999999999996,
+                            "Ltp": 9.6,
                             "breakerStatus": "Breaker Active",
-                            "Resistance": 26094.92359705359,
-                            "firstFuture_Resistance": 26185.92359705359,
-                            "secondFuture_Resistance": 26292.92359705359,
-                            "thirdFuture_Resistance": 26443.92359705359
+                            "Resistance": 26110.858420005865,
+                            "firstFuture_Resistance": 26196.258420005863,
+                            "secondFuture_Resistance": 26305.758420005863,
+                            "thirdFuture_Resistance": 26463.35842000586
                         },
                         "Put": {
-                            "ImpliedVolatility": 15.437130654103182,
-                            "Delta": -0.8560550946160859,
-                            "Theta": -3.394843141929522,
-                            "Vega": 7.402516255195586,
-                            "Gamma": 0.0004501469511526295,
-                            "Rho": 3.6774819038590323,
-                            "Ltp": 583.1,
-                            "ChngLtp": -34.44999999999993,
-                            "Volume": 240,
-                            "ChngVolume": 2,
-                            "Oi": 56,
-                            "ChngOi": -9,
-                            "OiChng": -1,
+                            "ImpliedVolatility": 16.68777111864848,
+                            "Delta": -0.8494156471345495,
+                            "Theta": -4.349907276941227,
+                            "Vega": 7.734966853418947,
+                            "Gamma": 0.0004233477269069393,
+                            "Rho": 3.764275156767407,
+                            "Ltp": 626.2,
+                            "ChngLtp": 8.650000000000091,
+                            "Volume": 60,
+                            "ChngVolume": 0,
+                            "Oi": 73,
+                            "ChngOi": 8,
+                            "OiChng": 4,
                             "breakerStatus": "Breaker Inactive",
-                            "Support": 26021.316083924008,
-                            "firstFuture_Support": 26112.316083924008,
-                            "secondFuture_Support": 26219.316083924008,
-                            "thirdFuture_Support": 26370.316083924008
+                            "Support": 26044.48020459962,
+                            "firstFuture_Support": 26129.88020459962,
+                            "secondFuture_Support": 26239.38020459962,
+                            "thirdFuture_Support": 26396.98020459962
                         }
                     },
                     {
                         "Strike": 26100,
                         "Call": {
-                            "ImpliedVolatility": 11.028342052996866,
-                            "Delta": 0.05154639344046617,
-                            "Theta": -3.5281179496607793,
-                            "Vega": 3.4488293066283324,
-                            "Gamma": 0.00029356413466019956,
-                            "Rho": 0.2143922814287589,
-                            "ChngOi": 9346,
-                            "OiChng": 388,
-                            "Oi": 39434,
-                            "Volume": 427540,
-                            "ChngVolume": 7544,
-                            "ChngLtp": -2.25,
-                            "Ltp": 7.75,
+                            "ImpliedVolatility": 11.379483054030219,
+                            "Delta": 0.04904093648125029,
+                            "Theta": -3.4315293537453706,
+                            "Vega": 3.3602923698946086,
+                            "Gamma": 0.0002697066422341333,
+                            "Rho": 0.20990947974241692,
+                            "ChngOi": 9779,
+                            "OiChng": 405,
+                            "Oi": 39867,
+                            "Volume": 166039,
+                            "ChngVolume": 2040,
+                            "ChngLtp": -2.3499999999999996,
+                            "Ltp": 7.65,
                             "breakerStatus": "Breaker Active",
-                            "Resistance": 26120.511060661654,
-                            "firstFuture_Resistance": 26211.51106066165,
-                            "secondFuture_Resistance": 26318.51106066165,
-                            "thirdFuture_Resistance": 26469.51106066165
+                            "Resistance": 26141.763594154945,
+                            "firstFuture_Resistance": 26227.16359415494,
+                            "secondFuture_Resistance": 26336.66359415494,
+                            "thirdFuture_Resistance": 26494.263594154945
                         },
                         "Put": {
-                            "ImpliedVolatility": 14.398730083094726,
-                            "Delta": -0.8933740946986706,
-                            "Theta": -0.8015069127854051,
-                            "Vega": 6.00111575897284,
-                            "Gamma": 0.0003912454832138895,
-                            "Rho": 3.8396851334783912,
-                            "Ltp": 620,
-                            "ChngLtp": -50.60000000000002,
-                            "Volume": 504,
-                            "ChngVolume": 1,
-                            "Oi": 337,
-                            "ChngOi": -8,
-                            "OiChng": 1,
+                            "ImpliedVolatility": 16.159601360381863,
+                            "Delta": -0.8768925429197013,
+                            "Theta": -2.516080716892438,
+                            "Vega": 6.739124786921097,
+                            "Gamma": 0.0003808991162404039,
+                            "Rho": 3.88930192711384,
+                            "Ltp": 665.7,
+                            "ChngLtp": -4.899999999999977,
+                            "Volume": 120,
+                            "ChngVolume": 3,
+                            "Oi": 343,
+                            "ChngOi": -2,
+                            "OiChng": -1,
                             "breakerStatus": "Breaker Inactive",
-                            "Support": 26094.92359705359,
-                            "firstFuture_Support": 26185.92359705359,
-                            "secondFuture_Support": 26292.92359705359,
-                            "thirdFuture_Support": 26443.92359705359
+                            "Support": 26110.858420005865,
+                            "firstFuture_Support": 26196.258420005863,
+                            "secondFuture_Support": 26305.758420005863,
+                            "thirdFuture_Support": 26463.35842000586
                         }
                     },
                     {
                         "Strike": 26150,
                         "Call": {
-                            "ImpliedVolatility": 11.001009522671104,
-                            "Delta": 0.03837676840816485,
-                            "Theta": -2.7600029799843737,
-                            "Vega": 2.719323860570209,
-                            "Gamma": 0.0002320437716778587,
-                            "Rho": 0.15966140310181298,
-                            "ChngOi": 2129,
-                            "OiChng": -83,
-                            "Oi": 11405,
-                            "Volume": 222031,
-                            "ChngVolume": 3152,
-                            "ChngLtp": -2.5999999999999996,
-                            "Ltp": 5.5,
-                            "breakerStatus": "Breaker Active",
-                            "Resistance": 26237.02660439696,
-                            "firstFuture_Resistance": 26328.02660439696,
-                            "secondFuture_Resistance": 26435.02660439696,
-                            "thirdFuture_Resistance": 26586.02660439696
+                            "ImpliedVolatility": 11.587523976194404,
+                            "Delta": 0.03995952654704802,
+                            "Theta": -2.9461822435812395,
+                            "Vega": 2.8490472418322685,
+                            "Gamma": 0.00022456709173046703,
+                            "Rho": 0.17105252607896893,
+                            "ChngOi": 4867,
+                            "OiChng": 17,
+                            "Oi": 14143,
+                            "Volume": 75738,
+                            "ChngVolume": 1234,
+                            "ChngLtp": -1.9499999999999993,
+                            "Ltp": 6.15,
+                            "breakerStatus": "Breaker Inactive",
+                            "Resistance": 26220.89851382828,
+                            "firstFuture_Resistance": 26306.298513828275,
+                            "secondFuture_Resistance": 26415.798513828275,
+                            "thirdFuture_Resistance": 26573.39851382828
                         },
                         "Put": {
-                            "ImpliedVolatility": 18.421312540724845,
-                            "Delta": -0.8529876942237115,
-                            "Theta": -5.390503810238012,
-                            "Vega": 7.508241207346376,
-                            "Gamma": 0.00038261251232613773,
-                            "Rho": 3.6824036310681656,
-                            "Ltp": 691.15,
-                            "ChngLtp": -29.850000000000023,
-                            "Volume": 112,
-                            "ChngVolume": 1,
-                            "Oi": 21,
-                            "ChngOi": 3,
-                            "OiChng": -1,
-                            "breakerStatus": "Breaker Inactive",
-                            "Support": 26120.511060661654,
-                            "firstFuture_Support": 26211.51106066165,
-                            "secondFuture_Support": 26318.51106066165,
-                            "thirdFuture_Support": 26469.51106066165
-                        }
-                    },
-                    {
-                        "Strike": 26200,
-                        "Call": {
-                            "ImpliedVolatility": 11.295126875441147,
-                            "Delta": 0.03177578696331019,
-                            "Theta": -2.413414063176865,
-                            "Vega": 2.329050572806349,
-                            "Gamma": 0.00019356611270636109,
-                            "Rho": 0.13219955735129435,
-                            "ChngOi": 23817,
-                            "OiChng": 1509,
-                            "Oi": 56760,
-                            "Volume": 574057,
-                            "ChngVolume": 8986,
-                            "ChngLtp": -1.9500000000000002,
-                            "Ltp": 4.55,
-                            "breakerStatus": "Breaker Inactive",
-                            "Resistance": 26256.514672246354,
-                            "firstFuture_Resistance": 26347.514672246354,
-                            "secondFuture_Resistance": 26454.514672246354,
-                            "thirdFuture_Resistance": 26605.514672246354
-                        },
-                        "Put": {
-                            "ImpliedVolatility": 17.43488482407749,
-                            "Delta": -0.8840486749435035,
-                            "Theta": -2.8954987680608575,
-                            "Vega": 6.372391066078507,
-                            "Gamma": 0.0003431032726163724,
-                            "Rho": 3.8183991826264547,
-                            "Ltp": 727.9,
-                            "ChngLtp": -37.35000000000002,
-                            "Volume": 263,
-                            "ChngVolume": 3,
-                            "Oi": 532,
-                            "ChngOi": -19,
+                            "ImpliedVolatility": 18.150366466001213,
+                            "Delta": -0.8667097184122289,
+                            "Theta": -4.217398235596328,
+                            "Vega": 7.121569297533986,
+                            "Gamma": 0.0003583665092254437,
+                            "Rho": 3.855196719152838,
+                            "Ltp": 723.25,
+                            "ChngLtp": 2.25,
+                            "Volume": 5,
+                            "ChngVolume": 2,
+                            "Oi": 19,
+                            "ChngOi": 1,
                             "OiChng": 1,
                             "breakerStatus": "Breaker Inactive",
-                            "Support": 26237.02660439696,
-                            "firstFuture_Support": 26328.02660439696,
-                            "secondFuture_Support": 26435.02660439696,
-                            "thirdFuture_Support": 26586.02660439696
+                            "Support": 26141.763594154945,
+                            "firstFuture_Support": 26227.16359415494,
+                            "secondFuture_Support": 26336.66359415494,
+                            "thirdFuture_Support": 26494.263594154945
                         }
                     }
                 ]
@@ -1357,41 +1357,41 @@
             "moreDetails": {
                 "symbol": "NIFTY",
                 "company": "NIFTY 50",
-                "spotPrice": 25461,
-                "atmStrikePrice": 25450,
+                "spotPrice": 25422.4,
+                "atmStrikePrice": 25400,
                 "maxPainStrike": 25450,
-                "ldv": 7.394501480253911,
+                "ldv": 7.25216173156241,
                 "currentExp": "10-07-2025",
                 "lotSize": 75,
                 "openPrice": 25428.85,
-                "highPrice": 25470.25,
-                "lowPrice": 25331.65,
+                "highPrice": 25458.65,
+                "lowPrice": 25370.55,
                 "closePrice": 25405.3,
-                "dayChangePrice": 55.70000000000073,
-                "dayChangePricePercentage": 0.21924559048702724,
-                "totalOiPcr": 0.764856189138083,
-                "callTotalOiDiffPerc": 56.6618405598463,
-                "putTotalOiDiffPerc": 43.3381594401537,
-                "totalOiDiff": -396812,
-                "totalChangeOiPcr": 0.8097343457700692,
-                "callTotalChangeOiperc": 55.25672883079892,
-                "putTotalChangeOiperc": 44.74327116920108,
-                "totalChangeOiDiff": -120625,
+                "dayChangePrice": 17.100000000002183,
+                "dayChangePricePercentage": 0.06730878989817944,
+                "totalOiPcr": 0.7662637915905463,
+                "callTotalOiDiffPerc": 56.616684594971254,
+                "putTotalOiDiffPerc": 43.383315405028746,
+                "totalOiDiff": -406216,
+                "totalChangeOiPcr": 0.8100041205298826,
+                "callTotalChangeOiperc": 55.24849300935557,
+                "putTotalChangeOiperc": 44.75150699064443,
+                "totalChangeOiDiff": -130029,
                 "maxCallVolumeChange": {
-                    "value": 19429,
-                    "strikePrice": 25500
+                    "value": 9930,
+                    "strikePrice": 25400
                 },
                 "maxPutVolumeChange": {
-                    "value": 22802,
+                    "value": 11125,
                     "strikePrice": 25400
                 },
                 "maxCallOiChange": {
-                    "value": 4180,
-                    "strikePrice": 26300
+                    "value": 834,
+                    "strikePrice": 26800
                 },
                 "maxPutOiChange": {
-                    "value": 760,
-                    "strikePrice": 24500
+                    "value": 770,
+                    "strikePrice": 22950
                 },
                 "resistanceSupport": {
                     "resistance": {
@@ -1401,7 +1401,7 @@
                     },
                     "support": {
                         "level": 25400,
-                        "source": "Volume",
+                        "source": "Oi",
                         "shift": null
                     },
                     "currentShiftData": null,
@@ -1484,18 +1484,7 @@
                                 "time": "09:23:04"
                             }
                         ],
-                        "callOiShifts": [
-                            {
-                                "type": "callOi",
-                                "from": 25500,
-                                "to": 26000,
-                                "direction": "sfb",
-                                "text": "sfb 25500 -> 26000",
-                                "timestamp": 1751622389797,
-                                "date": "2025-07-04",
-                                "time": "15:16:29"
-                            }
-                        ],
+                        "callOiShifts": [],
                         "callChngOiShifts": [
                             {
                                 "type": "callChngOi",
@@ -1556,16 +1545,6 @@
                                 "timestamp": 1751601090555,
                                 "date": "2025-07-04",
                                 "time": "09:21:30"
-                            },
-                            {
-                                "type": "callChngOi",
-                                "from": 25400,
-                                "to": 26000,
-                                "direction": "sfb",
-                                "text": "sfb 25400 -> 26000",
-                                "timestamp": 1751622748085,
-                                "date": "2025-07-04",
-                                "time": "15:22:28"
                             }
                         ],
                         "putVolumeShifts": [
@@ -1610,16 +1589,6 @@
                                 "timestamp": 1751601451084,
                                 "date": "2025-07-04",
                                 "time": "09:27:31"
-                            },
-                            {
-                                "type": "putOi",
-                                "from": 25400,
-                                "to": 25000,
-                                "direction": "sft",
-                                "text": "sft 25400 -> 25000",
-                                "timestamp": 1751622748085,
-                                "date": "2025-07-04",
-                                "time": "15:22:28"
                             }
                         ],
                         "putChngOiShifts": [
@@ -1672,86 +1641,16 @@
                                 "timestamp": 1751600909863,
                                 "date": "2025-07-04",
                                 "time": "09:18:29"
-                            },
-                            {
-                                "type": "putChngOi",
-                                "from": 25400,
-                                "to": 25300,
-                                "direction": "sft",
-                                "text": "sft 25400 -> 25300",
-                                "timestamp": 1751611379428,
-                                "date": "2025-07-04",
-                                "time": "12:12:59"
-                            },
-                            {
-                                "type": "putChngOi",
-                                "from": 25300,
-                                "to": 25400,
-                                "direction": "sfb",
-                                "text": "sfb 25300 -> 25400",
-                                "timestamp": 1751611739938,
-                                "date": "2025-07-04",
-                                "time": "12:18:59"
-                            },
-                            {
-                                "type": "putChngOi",
-                                "from": 25400,
-                                "to": 25300,
-                                "direction": "sft",
-                                "text": "sft 25400 -> 25300",
-                                "timestamp": 1751612277457,
-                                "date": "2025-07-04",
-                                "time": "12:27:57"
-                            },
-                            {
-                                "type": "putChngOi",
-                                "from": 25300,
-                                "to": 25400,
-                                "direction": "sfb",
-                                "text": "sfb 25300 -> 25400",
-                                "timestamp": 1751612639538,
-                                "date": "2025-07-04",
-                                "time": "12:33:59"
-                            },
-                            {
-                                "type": "putChngOi",
-                                "from": 25400,
-                                "to": 25300,
-                                "direction": "sft",
-                                "text": "sft 25400 -> 25300",
-                                "timestamp": 1751612643287,
-                                "date": "2025-07-04",
-                                "time": "12:34:03"
-                            },
-                            {
-                                "type": "putChngOi",
-                                "from": 25300,
-                                "to": 25400,
-                                "direction": "sfb",
-                                "text": "sfb 25300 -> 25400",
-                                "timestamp": 1751615888419,
-                                "date": "2025-07-04",
-                                "time": "13:28:08"
-                            },
-                            {
-                                "type": "putChngOi",
-                                "from": 25400,
-                                "to": 25200,
-                                "direction": "sft",
-                                "text": "sft 25400 -> 25200",
-                                "timestamp": 1751622926746,
-                                "date": "2025-07-04",
-                                "time": "15:25:26"
                             }
                         ],
                         "startDate": "2025-07-04",
-                        "totalShiftsToday": 32
+                        "totalShiftsToday": 22
                     },
                     "allShiftData": null,
                     "trackingInfo": {
                         "currentDate": "2025-07-04",
                         "startDate": "2025-07-04",
-                        "totalShiftsToday": 32,
+                        "totalShiftsToday": 22,
                         "isNewDay": false
                     }
                 }
@@ -1761,128 +1660,128 @@
                     "Call": {
                         "Top5Oi": [
                             {
-                                "Strike": 26000,
-                                "Oi": 115405
+                                "Strike": 25500,
+                                "Oi": 147628
                             },
                             {
-                                "Strike": 25500,
-                                "Oi": 103100
+                                "Strike": 26000,
+                                "Oi": 124837
                             }
                         ],
                         "Top5ChngOi": [
                             {
-                                "Strike": 26000,
-                                "ChngOi": 32370
+                                "Strike": 25400,
+                                "ChngOi": 84244
                             },
                             {
-                                "Strike": 25700,
-                                "ChngOi": 25410
+                                "Strike": 25500,
+                                "ChngOi": 62988
                             }
                         ],
                         "Top5Volume": [
                             {
                                 "Strike": 25400,
-                                "Volume": 2745054
+                                "Volume": 1012465
                             },
                             {
                                 "Strike": 25500,
-                                "Volume": 2340871
+                                "Volume": 782169
                             }
                         ]
                     },
                     "Put": {
                         "Top5Oi": [
                             {
-                                "Strike": 25000,
-                                "Oi": 86518
+                                "Strike": 25400,
+                                "Oi": 121074
                             },
                             {
-                                "Strike": 25400,
-                                "Oi": 73318
+                                "Strike": 25000,
+                                "Oi": 98711
                             }
                         ],
                         "Top5ChngOi": [
                             {
-                                "Strike": 25200,
-                                "ChngOi": 40571
+                                "Strike": 25400,
+                                "ChngOi": 80117
                             },
                             {
-                                "Strike": 25400,
-                                "ChngOi": 32361
+                                "Strike": 25300,
+                                "ChngOi": 38678
                             }
                         ],
                         "Top5Volume": [
                             {
                                 "Strike": 25400,
-                                "Volume": 3283637
+                                "Volume": 1330168
                             },
                             {
                                 "Strike": 25300,
-                                "Volume": 2087489
+                                "Volume": 642133
                             }
                         ]
                     },
                     "CallTenStrikeUpDown": {
                         "Top5Oi": [
                             {
-                                "Strike": 26000,
-                                "Oi": 115405
+                                "Strike": 25500,
+                                "Oi": 147628
                             },
                             {
-                                "Strike": 25500,
-                                "Oi": 103100
+                                "Strike": 26000,
+                                "Oi": 124837
                             }
                         ],
                         "Top5ChngOi": [
                             {
-                                "Strike": 26000,
-                                "ChngOi": 32370
+                                "Strike": 25400,
+                                "ChngOi": 84244
                             },
                             {
-                                "Strike": 25700,
-                                "ChngOi": 25410
+                                "Strike": 25500,
+                                "ChngOi": 62988
                             }
                         ],
                         "Top5Volume": [
                             {
                                 "Strike": 25400,
-                                "Volume": 2745054
+                                "Volume": 1012465
                             },
                             {
                                 "Strike": 25500,
-                                "Volume": 2340871
+                                "Volume": 782169
                             }
                         ]
                     },
                     "PutTenStrikeUpDown": {
                         "Top5Oi": [
                             {
-                                "Strike": 25000,
-                                "Oi": 86518
+                                "Strike": 25400,
+                                "Oi": 121074
                             },
                             {
-                                "Strike": 25400,
-                                "Oi": 73318
+                                "Strike": 25000,
+                                "Oi": 98711
                             }
                         ],
                         "Top5ChngOi": [
                             {
-                                "Strike": 25200,
-                                "ChngOi": 40571
+                                "Strike": 25400,
+                                "ChngOi": 80117
                             },
                             {
-                                "Strike": 25400,
-                                "ChngOi": 32361
+                                "Strike": 25300,
+                                "ChngOi": 38678
                             }
                         ],
                         "Top5Volume": [
                             {
                                 "Strike": 25400,
-                                "Volume": 3283637
+                                "Volume": 1330168
                             },
                             {
                                 "Strike": 25300,
-                                "Volume": 2087489
+                                "Volume": 642133
                             }
                         ]
                     }
@@ -1891,144 +1790,144 @@
                     "HighestCallVolume": {
                         "allHighestCallVolumeValues": [
                             {
-                                "value": 2745054,
+                                "value": 1012465,
                                 "strikePrice": 25400
                             },
                             {
-                                "value": 2340871,
+                                "value": 782169,
                                 "strikePrice": 25500
                             },
                             {
-                                "value": 1673029,
+                                "value": 668832,
                                 "strikePrice": 25450
                             },
                             {
-                                "value": 1585336,
+                                "value": 534595,
                                 "strikePrice": 25600
                             },
                             {
-                                "value": 1257178,
-                                "strikePrice": 25700
+                                "value": 435561,
+                                "strikePrice": 25800
                             }
                         ]
                     },
                     "HighestCallOi": {
                         "allHighestCallOiValues": [
                             {
-                                "value": 115405,
-                                "strikePrice": 26000
-                            },
-                            {
-                                "value": 113757,
-                                "strikePrice": 26500
-                            },
-                            {
-                                "value": 103100,
+                                "value": 147628,
                                 "strikePrice": 25500
                             },
                             {
-                                "value": 90005,
-                                "strikePrice": 27400
+                                "value": 124837,
+                                "strikePrice": 26000
                             },
                             {
-                                "value": 85547,
-                                "strikePrice": 27000
+                                "value": 115560,
+                                "strikePrice": 25400
+                            },
+                            {
+                                "value": 102299,
+                                "strikePrice": 25700
+                            },
+                            {
+                                "value": 102156,
+                                "strikePrice": 25600
                             }
                         ]
                     },
                     "HighestCallChngOi": {
                         "allHighestCallChngOiValues": [
                             {
-                                "value": 52803,
-                                "strikePrice": 27400
+                                "value": 84244,
+                                "strikePrice": 25400
                             },
                             {
-                                "value": 41980,
-                                "strikePrice": 27000
+                                "value": 62988,
+                                "strikePrice": 25500
                             },
                             {
-                                "value": 36572,
-                                "strikePrice": 26300
+                                "value": 52662,
+                                "strikePrice": 25450
                             },
                             {
-                                "value": 35840,
-                                "strikePrice": 26600
+                                "value": 44101,
+                                "strikePrice": 25700
                             },
                             {
-                                "value": 35504,
-                                "strikePrice": 26500
+                                "value": 43222,
+                                "strikePrice": 25600
                             }
                         ]
                     },
                     "HighestPutVolume": {
                         "allHighestPutVolumeValues": [
                             {
-                                "value": 3283637,
+                                "value": 1330168,
                                 "strikePrice": 25400
                             },
                             {
-                                "value": 2087489,
+                                "value": 642133,
                                 "strikePrice": 25300
                             },
                             {
-                                "value": 1730068,
-                                "strikePrice": 25350
-                            },
-                            {
-                                "value": 1620689,
+                                "value": 587170,
                                 "strikePrice": 25000
                             },
                             {
-                                "value": 1366644,
-                                "strikePrice": 25200
+                                "value": 546047,
+                                "strikePrice": 25450
+                            },
+                            {
+                                "value": 485851,
+                                "strikePrice": 25350
                             }
                         ]
                     },
                     "HighestPutOi": {
                         "allHighestPutOiValues": [
                             {
-                                "value": 86518,
-                                "strikePrice": 25000
-                            },
-                            {
-                                "value": 81421,
-                                "strikePrice": 24000
-                            },
-                            {
-                                "value": 78246,
-                                "strikePrice": 24500
-                            },
-                            {
-                                "value": 73318,
+                                "value": 121074,
                                 "strikePrice": 25400
                             },
                             {
-                                "value": 69693,
-                                "strikePrice": 25200
+                                "value": 98711,
+                                "strikePrice": 25000
+                            },
+                            {
+                                "value": 83819,
+                                "strikePrice": 25500
+                            },
+                            {
+                                "value": 73735,
+                                "strikePrice": 24000
+                            },
+                            {
+                                "value": 69616,
+                                "strikePrice": 25300
                             }
                         ]
                     },
                     "HighestPutChngOi": {
                         "allHighestPutChngOiValues": [
                             {
-                                "value": 40571,
-                                "strikePrice": 25200
-                            },
-                            {
-                                "value": 32361,
+                                "value": 80117,
                                 "strikePrice": 25400
                             },
                             {
-                                "value": 31287,
+                                "value": 38678,
                                 "strikePrice": 25300
                             },
                             {
-                                "value": 25879,
+                                "value": 37939,
+                                "strikePrice": 25100
+                            },
+                            {
+                                "value": 34040,
                                 "strikePrice": 25350
                             },
                             {
-                                "value": 24768,
-                                "strikePrice": 25100
+                                "value": 29904,
+                                "strikePrice": 25450
                             }
                         ]
                     }
@@ -2036,149 +1935,149 @@
             },
             "totalItems": {
                 "totalCall": {
-                    "Ltp": 65095.04999999998,
-                    "Volume": 24094512,
-                    "Oi": 1687529,
-                    "ChngOi": 633982,
-                    "InsenticValue": 25740,
-                    "TimeValue": 1724.5499999999997
+                    "Ltp": 64169.300000000025,
+                    "Volume": 8280658,
+                    "Oi": 1737925,
+                    "ChngOi": 684378,
+                    "InsenticValue": 22266.00000000013,
+                    "TimeValue": 1984.6999999999412
                 },
                 "totalPut": {
-                    "Ltp": 39684.69999999999,
-                    "Volume": 23172790,
-                    "Oi": 1290717,
-                    "ChngOi": 513357,
-                    "InsenticValue": -25740,
-                    "TimeValue": 1322.2499999999998
+                    "Ltp": 41173.75,
+                    "Volume": 8284202,
+                    "Oi": 1331709,
+                    "ChngOi": 554349,
+                    "InsenticValue": -22266.00000000013,
+                    "TimeValue": 1437.9000000000294
                 },
                 "call": {
                     "coi": {
                         "label": "Total COI",
-                        "value": 633982
+                        "value": 684378
                     },
                     "oi": {
                         "label": "Total OI",
-                        "value": 1687529
+                        "value": 1737925
                     },
                     "volume": {
                         "label": "Total VOLUME",
-                        "value": 24094512
+                        "value": 8280658
                     },
                     "ltp": {
                         "label": "Total LTP",
-                        "value": 65095.04999999998
+                        "value": 64169.300000000025
                     },
                     "insenticValue": {
                         "label": "Total Insentic Value",
-                        "value": 25740
+                        "value": 22266.00000000013
                     },
                     "timeValue": {
                         "label": "Total Time Value",
-                        "value": 1724.5499999999997
+                        "value": 1984.6999999999412
                     }
                 },
                 "put": {
                     "coi": {
                         "label": "Total COI",
-                        "value": 513357
+                        "value": 554349
                     },
                     "oi": {
                         "label": "Total OI",
-                        "value": 1290717
+                        "value": 1331709
                     },
                     "volume": {
                         "label": "Total VOLUME",
-                        "value": 23172790
+                        "value": 8284202
                     },
                     "ltp": {
                         "label": "Total LTP",
-                        "value": 39684.69999999999
+                        "value": 41173.75
                     },
                     "insenticValue": {
                         "label": "Total Insentic Value",
-                        "value": -25740
+                        "value": -22266.00000000013
                     },
                     "timeValue": {
                         "label": "Total Time Value",
-                        "value": 1322.2499999999998
+                        "value": 1437.9000000000294
                     }
                 },
                 "rangeTotal": {
                     "call": {
                         "coi": {
                             "label": "RANGE COI",
-                            "value": 278630
+                            "value": 507021
                         },
                         "oi": {
                             "label": "RANGE OI",
-                            "value": 902210
+                            "value": 1097717
                         },
                         "volume": {
                             "label": "RANGE VOLUME",
-                            "value": 19636525
+                            "value": 6446130
                         },
                         "ltp": {
                             "label": "RANGE LTP",
-                            "value": 7697.300000000001
+                            "value": 7907.9000000000015
                         },
                         "ChngLtp": {
                             "label": "RANGE Chng LTP",
-                            "value": 203.5500000000002
+                            "value": -379.34999999999997
                         }
                     },
                     "put": {
                         "coi": {
                             "label": "RANGE COI",
-                            "value": 277951
+                            "value": 413772
                         },
                         "oi": {
                             "label": "RANGE OI",
-                            "value": 753649
+                            "value": 891782
                         },
                         "volume": {
                             "label": "RANGE VOLUME",
-                            "value": 18881586
+                            "value": 6687163
                         },
                         "ltp": {
                             "label": "RANGE LTP",
-                            "value": 6853.15
+                            "value": 6800.65
                         },
                         "ChngLtp": {
                             "label": "RANGE Chng LTP",
-                            "value": -867.75
+                            "value": -164.9499999999998
                         }
                     }
                 }
             },
-            "currentTime": "03:32:55 PM",
+            "currentTime": "11:05:57 AM",
             "currentDate": "04-07-2025",
-            "currentDateTime": 1751623375093,
+            "currentDateTime": 1751607357551,
             "futureContract": [
                 {
                     "expiry": "31-07-2025",
                     "Datas": {
-                        "SpotPrice": 25552,
-                        "ChngOi": -354,
-                        "Oi": 136661.25,
-                        "Volume": 4448175
+                        "SpotPrice": 25507.8,
+                        "ChngOi": 1548.75,
+                        "Oi": 138564,
+                        "Volume": 1270950
                     }
                 },
                 {
                     "expiry": "28-08-2025",
                     "Datas": {
-                        "SpotPrice": 25659,
-                        "ChngOi": 1920.75,
-                        "Oi": 20972.25,
-                        "Volume": 472575
+                        "SpotPrice": 25617.3,
+                        "ChngOi": 522,
+                        "Oi": 19573.5,
+                        "Volume": 120525
                     }
                 },
                 {
                     "expiry": "25-09-2025",
                     "Datas": {
-                        "SpotPrice": 25810,
-                        "ChngOi": 171.75,
-                        "Oi": 2496.75,
-                        "Volume": 86700
+                        "SpotPrice": 25774.9,
+                        "ChngOi": 76.5,
+                        "Oi": 2401.5,
+                        "Volume": 23475
                     }
                 }
             ],
@@ -2186,7 +2085,7 @@
         },
         "date": "04072025",
         "error": null,
-        "time": "153256",
-        "timestamp": 1751623376248
+        "time": "110557",
+        "timestamp": 1751607357855
     }
 }
