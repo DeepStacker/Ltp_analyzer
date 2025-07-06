@@ -1,0 +1,2127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Gain a competitive edge with our professional market analysis dashboard. Access real-time data, AI-powered trading signals, comprehensive risk assessment, and dynamic scenario analysis to make informed trading decisions. Optimize your investment strategy with our advanced tools." />
+    <meta name="keywords" content="market analysis, trading dashboard, real-time data, trading signals, risk assessment, scenario analysis, stock market, options trading, investment strategy, financial analysis, technical analysis, fundamental analysis, AI trading, algorithmic trading" />
+    <title>Market Analysis Dashboard | Real-Time Trading Signals & Risk Assessment</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    &lt;script type="application/ld+json"&gt;
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Market Analysis Dashboard",
+      "description": "Professional market analysis dashboard providing real-time data, trading signals, risk assessment, and scenario analysis for informed trading decisions.",
+      "keywords": "market analysis, trading dashboard, real-time data, trading signals, risk assessment, scenario analysis, stock market, options trading",
+      "url": "http://127.0.0.1:8000/",
+      "datePublished": "2025-07-06",
+      "author": {
+        "@type": "Organization",
+        "name": "Your Organization Name"
+      }
+    }
+    &lt;/script&gt;
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        --primary-color: #2563eb;
+        --primary-dark: #1d4ed8;
+        --secondary-color: #64748b;
+        --success-color: #10b981;
+        --warning-color: #f59e0b;
+        --danger-color: #ef4444;
+        --info-color: #06b6d4;
+        --light-bg: #f8fafc;
+        --card-bg: #ffffff;
+        --border-color: #e2e8f0;
+        --text-primary: #1e293b;
+        --text-secondary: #64748b;
+        --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+        --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1),
+          0 2px 4px -2px rgb(0 0 0 / 0.1);
+        --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+          0 4px 6px -4px rgb(0 0 0 / 0.1);
+        --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+          0 8px 10px -6px rgb(0 0 0 / 0.1);
+      }
+
+      body {
+        font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, sans-serif;
+        background-color: var(--light-bg);
+        color: var(--text-primary);
+        line-height: 1.6;
+      }
+
+      .dashboard-container {
+        display: flex;
+        min-height: 100vh;
+      }
+
+      /* Sidebar Styles */
+      .sidebar {
+        width: 280px;
+        background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+        color: white;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        box-shadow: var(--shadow-xl);
+        position: relative;
+        z-index: 100;
+      }
+
+      .sidebar-header {
+        padding: 2rem 1.5rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .sidebar-header h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        background: linear-gradient(135deg, #60a5fa, #34d399);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .sidebar-header p {
+        font-size: 0.875rem;
+        color: rgba(255, 255, 255, 0.7);
+      }
+
+      .nav {
+        flex: 1;
+        padding: 1rem 0;
+      }
+
+      .nav-item {
+        display: flex;
+        align-items: center;
+        padding: 1rem 1.5rem;
+        color: rgba(255, 255, 255, 0.8);
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border-left: 3px solid transparent;
+        font-weight: 500;
+      }
+
+      .nav-item:hover {
+        background: rgba(255, 255, 255, 0.1);
+        color: white;
+        border-left-color: var(--primary-color);
+      }
+
+      .nav-item.active {
+        background: rgba(37, 99, 235, 0.2);
+        color: white;
+        border-left-color: var(--primary-color);
+        font-weight: 600;
+      }
+
+      .nav-item i {
+        width: 20px;
+        margin-right: 0.75rem;
+        font-size: 1.1rem;
+      }
+
+      /* Main Content */
+      .main-content {
+        flex: 1;
+        padding: 2rem;
+        background: var(--light-bg);
+        overflow-y: auto;
+      }
+
+      /* Header */
+      .header {
+        background: var(--card-bg);
+        border-radius: 1rem;
+        padding: 2rem;
+        margin-bottom: 2rem;
+        box-shadow: var(--shadow-md);
+        border: 1px solid var(--border-color);
+      }
+
+      .header-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1.5rem;
+      }
+
+      .header-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--text-primary);
+      }
+
+      .header-controls {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+      }
+
+      .btn {
+        padding: 0.75rem 1.5rem;
+        border: none;
+        border-radius: 0.5rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 0.875rem;
+      }
+
+      .btn-primary {
+        background: var(--primary-color);
+        color: white;
+      }
+
+      .btn-primary:hover {
+        background: var(--primary-dark);
+        transform: translateY(-1px);
+        box-shadow: var(--shadow-md);
+      }
+
+      .btn-secondary {
+        background: var(--secondary-color);
+        color: white;
+      }
+
+      .btn-secondary:hover {
+        background: #475569;
+        transform: translateY(-1px);
+      }
+
+      .btn-success {
+        background: var(--success-color);
+        color: white;
+      }
+
+      .btn-success:hover {
+        background: #059669;
+        transform: translateY(-1px);
+      }
+
+      .btn-warning {
+        background: var(--warning-color);
+        color: white;
+      }
+
+      .btn-warning:hover {
+        background: #d97706;
+        transform: translateY(-1px);
+      }
+
+      .btn.disabled {
+        background: #9ca3af;
+        cursor: not-allowed;
+        transform: none;
+      }
+
+      .header-info {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1.5rem;
+      }
+
+      .info-card {
+        background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+        padding: 1.5rem;
+        border-radius: 0.75rem;
+        border: 1px solid var(--border-color);
+        transition: all 0.3s ease;
+      }
+
+      .info-card:hover {
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-lg);
+      }
+
+      .info-label {
+        font-size: 0.875rem;
+        color: var(--text-secondary);
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+      }
+
+      .info-value {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--text-primary);
+      }
+
+      .scenario-link {
+        color: var(--primary-color);
+        cursor: pointer;
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+
+      .scenario-link:hover {
+        color: var(--primary-dark);
+        text-decoration: underline;
+      }
+
+      .status-indicator {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .status-dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        animation: pulse 2s infinite;
+      }
+
+      .status-dot.live {
+        background: var(--success-color);
+      }
+
+      .status-dot.cached {
+        background: var(--info-color);
+      }
+
+      .status-dot.error {
+        background: var(--danger-color);
+      }
+
+      .status-dot.loading {
+        background: var(--warning-color);
+      }
+
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.5;
+        }
+      }
+
+      /* Page Content */
+      .page {
+        background: var(--card-bg);
+        border-radius: 1rem;
+        padding: 2rem;
+        box-shadow: var(--shadow-md);
+        border: 1px solid var(--border-color);
+      }
+
+      .page h2 {
+        font-size: 1.75rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+        color: var(--text-primary);
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+      }
+
+      .page h3 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin: 2rem 0 1rem 0;
+        color: var(--text-primary);
+      }
+
+      /* Form Styles */
+      .form-group {
+        margin-bottom: 1.5rem;
+      }
+
+      .form-label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+        color: var(--text-primary);
+      }
+
+      .form-input {
+        width: 100%;
+        padding: 0.75rem;
+        border: 1px solid var(--border-color);
+        border-radius: 0.5rem;
+        font-size: 0.875rem;
+        transition: border-color 0.3s ease;
+      }
+
+      .form-input:focus {
+        outline: none;
+        border-color: var(--primary-color);
+        box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+      }
+
+      .form-textarea {
+        min-height: 120px;
+        resize: vertical;
+      }
+
+      /* Tables */
+      .data-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1.5rem 0;
+        background: var(--card-bg);
+        border-radius: 0.75rem;
+        overflow: hidden;
+        box-shadow: var(--shadow-sm);
+      }
+
+      .data-table th {
+        background: linear-gradient(
+          135deg,
+          var(--primary-color),
+          var(--primary-dark)
+        );
+        color: white;
+        padding: 1rem;
+        text-align: left;
+        font-weight: 600;
+        font-size: 0.875rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+
+      .data-table td {
+        padding: 1rem;
+        border-bottom: 1px solid var(--border-color);
+        font-weight: 500;
+      }
+
+      .data-table tr:hover {
+        background: #f8fafc;
+      }
+
+      .data-table tr:last-child td {
+        border-bottom: none;
+      }
+
+      /* Cards Grid */
+      .cards-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+        margin: 2rem 0;
+      }
+
+      .metric-card {
+        background: var(--card-bg);
+        border-radius: 0.75rem;
+        padding: 1.5rem;
+        box-shadow: var(--shadow-sm);
+        border: 1px solid var(--border-color);
+        transition: all 0.3s ease;
+      }
+
+      .metric-card:hover {
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-lg);
+      }
+
+      .metric-card h4 {
+        font-size: 1.125rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        color: var(--text-primary);
+      }
+
+      .metric-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.75rem 0;
+        border-bottom: 1px solid var(--border-color);
+      }
+
+      .metric-row:last-child {
+        border-bottom: none;
+      }
+
+      .metric-label {
+        font-weight: 500;
+        color: var(--text-secondary);
+      }
+
+      .metric-value {
+        font-weight: 600;
+        color: var(--text-primary);
+      }
+
+      /* Alert Boxes */
+      .alert {
+        padding: 1.5rem;
+        border-radius: 0.75rem;
+        margin: 1.5rem 0;
+        border-left: 4px solid;
+      }
+
+      .alert-success {
+        background: #ecfdf5;
+        border-left-color: var(--success-color);
+        color: #065f46;
+      }
+
+      .alert-warning {
+        background: #fffbeb;
+        border-left-color: var(--warning-color);
+        color: #92400e;
+      }
+
+      .alert-danger {
+        background: #fef2f2;
+        border-left-color: var(--danger-color);
+        color: #991b1b;
+      }
+
+      .alert-info {
+        background: #f0f9ff;
+        border-left-color: var(--info-color);
+        color: #0c4a6e;
+      }
+
+      /* Lists */
+      .styled-list {
+        list-style: none;
+        padding: 0;
+      }
+
+      .styled-list li {
+        background: var(--card-bg);
+        margin-bottom: 0.75rem;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border: 1px solid var(--border-color);
+        transition: all 0.3s ease;
+      }
+
+      .styled-list li:hover {
+        transform: translateX(4px);
+        box-shadow: var(--shadow-md);
+      }
+
+      /* Modal */
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(4px);
+      }
+
+      .modal-content {
+        background: var(--card-bg);
+        margin: 2% auto;
+        padding: 2rem;
+        border-radius: 1rem;
+        max-width: 90%;
+        max-height: 90%;
+        overflow: auto;
+        position: relative;
+        box-shadow: var(--shadow-xl);
+      }
+
+      .modal-close {
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+        font-size: 2rem;
+        color: var(--text-secondary);
+        cursor: pointer;
+        background: none;
+        border: none;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        transition: all 0.3s ease;
+      }
+
+      .modal-close:hover {
+        background: var(--light-bg);
+        color: var(--text-primary);
+      }
+
+      .modal-content img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 0.75rem;
+        box-shadow: var(--shadow-lg);
+      }
+
+      /* Loading and Error States */
+      .loading,
+      .error {
+        text-align: center;
+        padding: 3rem;
+        font-size: 1.125rem;
+      }
+
+      .loading {
+        color: var(--text-secondary);
+      }
+
+      .loading::after {
+        content: "";
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border: 3px solid var(--border-color);
+        border-top: 3px solid var(--primary-color);
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin-left: 0.75rem;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .error {
+        color: var(--danger-color);
+        background: #fef2f2;
+        border-radius: 0.75rem;
+        border: 1px solid #fecaca;
+      }
+
+      /* Token Status */
+      .token-status {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        font-size: 0.875rem;
+        font-weight: 600;
+      }
+
+      .token-status.valid {
+        background: #ecfdf5;
+        color: #065f46;
+        border: 1px solid #bbf7d0;
+      }
+
+      .token-status.expired {
+        background: #fef2f2;
+        color: #991b1b;
+        border: 1px solid #fecaca;
+      }
+
+      .token-status.unknown {
+        background: #f3f4f6;
+        color: #374151;
+        border: 1px solid #d1d5db;
+      }
+
+      /* Responsive Design */
+      @media (max-width: 1024px) {
+        .sidebar {
+          width: 240px;
+        }
+
+        .main-content {
+          padding: 1.5rem;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .sidebar {
+          width: 70px;
+        }
+
+        .sidebar-header h2,
+        .sidebar-header p {
+          display: none;
+        }
+
+        .nav-item span {
+          display: none;
+        }
+
+        .nav-item {
+          justify-content: center;
+          padding: 1rem;
+        }
+
+        .header-top {
+          flex-direction: column;
+          gap: 1rem;
+          align-items: stretch;
+        }
+
+        .header-controls {
+          justify-content: center;
+        }
+
+        .header-info {
+          grid-template-columns: 1fr;
+        }
+
+        .cards-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .main-content {
+          padding: 1rem;
+        }
+
+        .header {
+          padding: 1.5rem;
+        }
+
+        .page {
+          padding: 1.5rem;
+        }
+      }
+
+      /* Utility Classes */
+      .text-center {
+        text-align: center;
+      }
+      .text-right {
+        text-align: right;
+      }
+      .font-bold {
+        font-weight: 700;
+      }
+      .font-semibold {
+        font-weight: 600;
+      }
+      .text-sm {
+        font-size: 0.875rem;
+      }
+      .text-lg {
+        font-size: 1.125rem;
+      }
+      .text-xl {
+        font-size: 1.25rem;
+      }
+      .text-2xl {
+        font-size: 1.5rem;
+      }
+      .mb-4 {
+        margin-bottom: 1rem;
+      }
+      .mt-4 {
+        margin-top: 1rem;
+      }
+      .p-4 {
+        padding: 1rem;
+      }
+      .rounded {
+        border-radius: 0.5rem;
+      }
+      .shadow {
+        box-shadow: var(--shadow-md);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dashboard-container">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <div class="sidebar-header">
+          <h2>Market Dashboard</h2>
+          <p>Professional Trading Analysis</p>
+        </div>
+        <nav class="nav">
+          <div href="#overview" class="nav-item active" data-page="overview">
+            <i class="fas fa-chart-line"></i>
+            <span>Overview</span>
+          </div>
+          <div href="#support" class="nav-item" data-page="support">
+            <i class="fas fa-arrow-up"></i>
+            <span>Support Analysis</span>
+          </div>
+          <div href="#resistance" class="nav-item" data-page="resistance">
+            <i class="fas fa-arrow-down"></i>
+            <span>Resistance Analysis</span>
+          </div>
+          <div href="#signals" class="nav-item" data-page="signals">
+            <i class="fas fa-signal"></i>
+            <span>Trading Signals</span>
+          </div>
+          <div href="#risk" class="nav-item" data-page="risk">
+            <i class="fas fa-shield-alt"></i>
+            <span>Risk Assessment</span>
+          </div>
+          <div href="#tokens" class="nav-item" data-page="tokens">
+            <i class="fas fa-key"></i>
+            <span>Token Management</span>
+          </div>
+          <div href="#scenario" class="nav-item" data-page="scenario">
+            <i class="fas fa-chart-bar"></i>
+            <span>Scenario Chart</span>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Main Content -->
+      <div class="main-content">
+        <!-- Header -->
+        <div class="header">
+          <div class="header-top">
+            <h1 class="header-title">\n                <i class="fas fa-chart-line"></i> Market Analysis Dashboard\n            </h1>
+            <div class="header-controls">
+              <button class="btn btn-primary" id="autoRefreshBtn">
+                <i class="fas fa-sync-alt"></i>
+                Auto Refresh: ON
+              </button>
+              <button class="btn btn-secondary" id="refreshBtn">
+                <i class="fas fa-refresh"></i>
+                Refresh Now
+              </button>
+            </div>
+          </div>
+
+          <div class="header-info">
+            <div class="info-card">
+              <div class="info-label">Spot Price</div>
+              <div class="info-value">₹<span id="spotPrice">-</span></div>
+            </div>
+            <div class="info-card">
+              <div class="info-label">Scenario</div>
+              <div class="info-value">
+                <span id="scenarioNum" class="scenario-link">-</span>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-label">Status</div>
+              <div class="info-value">
+                <div class="status-indicator">
+                  <span id="statusDot" class="status-dot live"></span>
+                  <span id="statusText">Live</span>
+                </div>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-label">Last Updated</div>
+              <div class="info-value text-sm" id="lastUpdated">-</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Loading/Error States -->
+        <div id="loading" class="loading" style="display: none">
+          <i class="fas fa-spinner fa-spin"></i>
+          Loading market data...
+        </div>
+        <div id="error" class="error" style="display: none"></div>
+
+        <!-- Page Content -->
+        <div id="page-overview" class="page"></div>
+        <div id="page-support" class="page" style="display: none"></div>
+        <div id="page-resistance" class="page" style="display: none"></div>
+        <div id="page-signals" class="page" style="display: none"></div>
+        <div id="page-risk" class="page" style="display: none"></div>
+        <div id="page-tokens" class="page" style="display: none"></div>
+        <div id="page-scenario" class="page" style="display: none"></div>
+      </div>
+    </div>
+
+    <!-- Modal for Scenario Chart -->
+    <div class="modal" id="scenarioModal">
+      <div class="modal-content">
+        <button class="modal-close" id="modalCloseBtn">
+          <i class="fas fa-times"></i>
+        </button>
+        <h2 class="text-center mb-4">
+          <i class="fas fa-chart-bar"></i>
+          Chart of Accuracy
+        </h2>
+        <div class="text-center">
+          <img src="http://127.0.0.1:8000/scenarios" alt="Market Scenario Chart" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Configuration
+      const API_URL = "http://127.0.0.1:8000/analyze";
+      const TOKEN_REFRESH_URL =
+        "https://securetoken.googleapis.com/v1/token?key=AIzaSyDdVgKwhZl-sTHoOFc6fcb8CR8N_8GsZqE";
+      const CACHE_KEY = "marketAnalysisData";
+      const CACHE_TIME_KEY = "marketAnalysisDataTime";
+      const TOKEN_CACHE_KEY = "authTokenData";
+      const AUTO_REFRESH_INTERVAL = 30000;
+
+      // State
+      let data = null;
+      let autoRefresh = true;
+      let autoRefreshTimer = null;
+      let loading = false;
+
+      // DOM Elements
+      const pages = {
+        overview: document.getElementById("page-overview"),
+        support: document.getElementById("page-support"),
+        resistance: document.getElementById("page-resistance"),
+        signals: document.getElementById("page-signals"),
+        risk: document.getElementById("page-risk"),
+        tokens: document.getElementById("page-tokens"),
+        scenario: document.getElementById("page-scenario"),
+      };
+
+      const navItems = document.querySelectorAll(".nav-item");
+      const spotPriceEl = document.getElementById("spotPrice");
+      const scenarioNumEl = document.getElementById("scenarioNum");
+      const statusDot = document.getElementById("statusDot");
+      const statusText = document.getElementById("statusText");
+      const lastUpdatedEl = document.getElementById("lastUpdated");
+      const loadingEl = document.getElementById("loading");
+      const errorEl = document.getElementById("error");
+      const autoRefreshBtn = document.getElementById("autoRefreshBtn");
+      const refreshBtn = document.getElementById("refreshBtn");
+      const scenarioModal = document.getElementById("scenarioModal");
+      const modalCloseBtn = document.getElementById("modalCloseBtn");
+
+      // Navigation
+      function showPage(page) {
+        Object.keys(pages).forEach((p) => {
+          pages[p].style.display = p === page ? "block" : "none";
+        });
+        navItems.forEach((item) => {
+          if (item.dataset.page === page) {
+            item.classList.add("active");
+          } else {
+            item.classList.remove("active");
+          }
+        });
+        if (page === "scenario") {
+          renderScenarioPage();
+        } else if (page === "tokens") {
+          renderTokensPage();
+        }
+      }
+
+      navItems.forEach((item) => {
+        item.addEventListener("click", () => showPage(item.dataset.page));
+      });
+
+      // Modal functionality
+      scenarioNumEl.addEventListener("click", () => {
+        scenarioModal.style.display = "block";
+      });
+
+      modalCloseBtn.addEventListener("click", () => {
+        scenarioModal.style.display = "none";
+      });
+
+      window.addEventListener("click", (event) => {
+        if (event.target === scenarioModal) {
+          scenarioModal.style.display = "none";
+        }
+      });
+
+      // Token Management Functions
+      function getStoredTokenData() {
+        try {
+          const tokenData = localStorage.getItem(TOKEN_CACHE_KEY);
+          return tokenData ? JSON.parse(tokenData) : null;
+        } catch (e) {
+          console.error("Error parsing stored token data:", e);
+          return null;
+        }
+      }
+
+      function saveTokenData(tokenData) {
+        try {
+          localStorage.setItem(
+            TOKEN_CACHE_KEY,
+            JSON.stringify({
+              ...tokenData,
+              stored_at: Date.now(),
+            })
+          );
+        } catch (e) {
+          console.error("Error saving token data:", e);
+        }
+      }
+
+      function isTokenExpired(tokenData) {
+        if (!tokenData || !tokenData.expires_in || !tokenData.stored_at) {
+          return true;
+        }
+        const expirationTime =
+          tokenData.stored_at + parseInt(tokenData.expires_in) * 1000;
+        return Date.now() >= expirationTime;
+      }
+
+      function getValidAccessToken() {
+        const tokenData = getStoredTokenData();
+        if (tokenData && !isTokenExpired(tokenData) && tokenData.access_token) {
+          return tokenData.access_token;
+        }
+        return null;
+      }
+
+      function renderTokensPage() {
+        const tokenData = getStoredTokenData();
+        const isExpired = tokenData ? isTokenExpired(tokenData) : true;
+
+        let tokenStatusHtml = "";
+        let tokenInfoHtml = "";
+
+        if (tokenData) {
+          const statusClass = isExpired ? "expired" : "valid";
+          const statusText = isExpired ? "Expired" : "Valid";
+          const statusIcon = isExpired
+            ? "fas fa-times-circle"
+            : "fas fa-check-circle";
+
+          tokenStatusHtml = `
+                    <div class="token-status ${statusClass}">
+                        <i class="${statusIcon}"></i>
+                        Token Status: ${statusText}
+                    </div>
+                `;
+
+          const expirationTime = new Date(
+            tokenData.stored_at + parseInt(tokenData.expires_in) * 1000
+          );
+
+          tokenInfoHtml = `
+                    <div class="cards-grid">
+                        <div class="metric-card">
+                            <h4><i class="fas fa-info-circle"></i> Token Information</h4>
+                            <div class="metric-row">
+                                <span class="metric-label">Token Type</span>
+                                <span class="metric-value">${
+                                  tokenData.token_type || "N/A"
+                                }</span>
+                            </div>
+                            <div class="metric-row">
+                                <span class="metric-label">Expires In</span>
+                                <span class="metric-value">${
+                                  tokenData.expires_in || "N/A"
+                                } seconds</span>
+                            </div>
+                            <div class="metric-row">
+                                <span class="metric-label">User ID</span>
+                                <span class="metric-value">${
+                                  tokenData.user_id || "N/A"
+                                }</span>
+                            </div>
+                            <div class="metric-row">
+                                <span class="metric-label">Project ID</span>
+                                <span class="metric-value">${
+                                  tokenData.project_id || "N/A"
+                                }</span>
+                            </div>
+                        </div>
+                        
+                        <div class="metric-card">
+                            <h4><i class="fas fa-clock"></i> Timing Information</h4>
+                            <div class="metric-row">
+                                <span class="metric-label">Stored At</span>
+                                <span class="metric-value">${new Date(
+                                  tokenData.stored_at
+                                ).toLocaleString()}</span>
+                            </div>
+                            <div class="metric-row">
+                                <span class="metric-label">Expires At</span>
+                                <span class="metric-value">${expirationTime.toLocaleString()}</span>
+                            </div>
+                            <div class="metric-row">
+                                <span class="metric-label">Time Remaining</span>
+                                <span class="metric-value">${
+                                  isExpired
+                                    ? "Expired"
+                                    : Math.max(
+                                        0,
+                                        Math.floor(
+                                          (expirationTime - Date.now()) / 1000
+                                        )
+                                      ) + " seconds"
+                                }</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+        } else {
+          tokenStatusHtml = `
+                    <div class="token-status unknown">
+                        <i class="fas fa-question-circle"></i>
+                        Token Status: No Token Stored
+                    </div>
+                `;
+        }
+
+        const html = `
+                <h2><i class="fas fa-key"></i> Token Management</h2>
+                
+                <div class="mb-4">
+                    ${tokenStatusHtml}
+                </div>
+
+                ${tokenInfoHtml}
+
+                <div class="alert alert-info">
+                    <h4><i class="fas fa-info-circle"></i> Token Refresh</h4>
+                    <p>Use the form below to refresh your authentication token. Enter your current refresh token to get a new access token.</p>
+                    <p><strong>Note:</strong> The access token will be automatically included in API requests to the /analyze endpoint.</p>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="refreshTokenInput">
+                        <i class="fas fa-key"></i> Refresh Token
+                    </label>
+                    <textarea 
+                        class="form-input form-textarea" 
+                        id="refreshTokenInput" 
+                        placeholder="Enter your refresh token here..."
+                        rows="4"
+                    >${
+                      tokenData ? tokenData.refresh_token || "" : ""
+                    }</textarea>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="tokenApiUrl">
+                        <i class="fas fa-link"></i> Token Refresh API URL
+                    </label>
+                    <input 
+                        type="url" 
+                        class="form-input" 
+                        id="tokenApiUrl" 
+                        placeholder="https://securetoken.googleapis.com/v1/token?key=YOUR_API_KEY"
+                        value="${TOKEN_REFRESH_URL}"
+                    />
+                </div>
+
+                <div style="display: flex; gap: 1rem; margin-top: 2rem; flex-wrap: wrap;">
+                    <button class="btn btn-primary" id="refreshTokenBtn">
+                        <i class="fas fa-sync-alt"></i>
+                        Refresh Token
+                    </button>
+                    <button class="btn btn-warning" id="clearTokenBtn">
+                        <i class="fas fa-trash"></i>
+                        Clear Stored Token
+                    </button>
+                    <button class="btn btn-secondary" id="copyTokenBtn" ${
+                      !tokenData || !tokenData.access_token ? "disabled" : ""
+                    }>
+                        <i class="fas fa-copy"></i>
+                        Copy Access Token
+                    </button>
+                    <button class="btn btn-success" id="testTokenBtn" ${
+                      !tokenData || !tokenData.access_token ? "disabled" : ""
+                    }>
+                        <i class="fas fa-vial"></i>
+                        Test Token
+                    </button>
+                </div>
+
+                <div id="tokenResult" style="margin-top: 2rem;"></div>
+
+                ${
+                  tokenData && tokenData.access_token
+                    ? `
+                    <h3><i class="fas fa-code"></i> Current Access Token</h3>
+                    <div style="background: #f8f9fa; padding: 1rem; border-radius: 0.5rem; border: 1px solid #e2e8f0; margin-top: 1rem;">
+                        <code style="word-break: break-all; font-size: 0.875rem;">${tokenData.access_token}</code>
+                    </div>
+                `
+                    : ""
+                }
+            `;
+
+        pages.tokens.innerHTML = html;
+
+        // Add event listeners for token management
+        document
+          .getElementById("refreshTokenBtn")
+          .addEventListener("click", handleTokenRefresh);
+        document
+          .getElementById("clearTokenBtn")
+          .addEventListener("click", handleClearToken);
+        if (document.getElementById("copyTokenBtn")) {
+          document
+            .getElementById("copyTokenBtn")
+            .addEventListener("click", handleCopyToken);
+        }
+        if (document.getElementById("testTokenBtn")) {
+          document
+            .getElementById("testTokenBtn")
+            .addEventListener("click", handleTestToken);
+        }
+      }
+
+      async function handleTokenRefresh() {
+        const refreshTokenInput = document.getElementById("refreshTokenInput");
+        const tokenApiUrl = document.getElementById("tokenApiUrl");
+        const resultDiv = document.getElementById("tokenResult");
+        const refreshBtn = document.getElementById("refreshTokenBtn");
+
+        const refreshTokenValue = refreshTokenInput.value.trim();
+        const apiUrl = tokenApiUrl.value.trim();
+
+        if (!refreshTokenValue) {
+          resultDiv.innerHTML = `
+                    <div class="alert alert-danger">
+                        <i class="fas fa-exclamation-circle"></i>
+                        Please enter a refresh token.
+                    </div>
+                `;
+          return;
+        }
+
+        if (!apiUrl) {
+          resultDiv.innerHTML = `
+                    <div class="alert alert-danger">
+                        <i class="fas fa-exclamation-circle"></i>
+                        Please enter the API URL.
+                    </div>
+                `;
+          return;
+        }
+
+        refreshBtn.disabled = true;
+        refreshBtn.innerHTML =
+          '<i class="fas fa-spinner fa-spin"></i> Refreshing...';
+
+        try {
+          const response = await fetch(apiUrl, {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/x-www-form-urlencoded",
+            },
+            body: new URLSearchParams({
+              grant_type: "refresh_token",
+              refresh_token: refreshTokenValue,
+            }),
+          });
+
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+
+          const tokenData = await response.json();
+          saveTokenData(tokenData);
+
+          resultDiv.innerHTML = `
+                    <div class="alert alert-success">
+                        <h4><i class="fas fa-check-circle"></i> Token Refreshed Successfully!</h4>
+                        <p>New access token has been saved to local storage.</p>
+                        <p><strong>Expires in:</strong> ${
+                          tokenData.expires_in
+                        } seconds</p>
+                        <p><strong>User ID:</strong> ${
+                          tokenData.user_id || "N/A"
+                        }</p>
+                    </div>
+                `;
+
+          // Re-render the page to show updated token info
+          setTimeout(() => renderTokensPage(), 1000);
+        } catch (error) {
+          console.error("Token refresh error:", error);
+          resultDiv.innerHTML = `
+                    <div class="alert alert-danger">
+                        <h4><i class="fas fa-exclamation-circle"></i> Token Refresh Failed</h4>
+                        <p>Error: ${error.message}</p>
+                        <p>Please check your refresh token and API URL.</p>
+                    </div>
+                `;
+        } finally {
+          refreshBtn.disabled = false;
+          refreshBtn.innerHTML =
+            '<i class="fas fa-sync-alt"></i> Refresh Token';
+        }
+      }
+
+      function handleClearToken() {
+        if (
+          confirm(
+            "Are you sure you want to clear the stored token? This action cannot be undone."
+          )
+        ) {
+          localStorage.removeItem(TOKEN_CACHE_KEY);
+          document.getElementById("tokenResult").innerHTML = `
+                    <div class="alert alert-warning">
+                        <i class="fas fa-trash"></i>
+                        Stored token has been cleared.
+                    </div>
+                `;
+          setTimeout(() => renderTokensPage(), 1000);
+        }
+      }
+
+      async function handleCopyToken() {
+        const tokenData = getStoredTokenData();
+        if (tokenData && tokenData.access_token) {
+          try {
+            await navigator.clipboard.writeText(tokenData.access_token);
+            document.getElementById("tokenResult").innerHTML = `
+                        <div class="alert alert-success">
+                            <i class="fas fa-check"></i>
+                            Access token copied to clipboard!
+                        </div>
+                    `;
+          } catch (error) {
+            console.error("Copy failed:", error);
+            document.getElementById("tokenResult").innerHTML = `
+                        <div class="alert alert-danger">
+                            <i class="fas fa-exclamation-circle"></i>
+                            Failed to copy token to clipboard.
+                        </div>
+                    `;
+          }
+        }
+      }
+
+      async function handleTestToken() {
+        const tokenData = getStoredTokenData();
+        const resultDiv = document.getElementById("tokenResult");
+        const testBtn = document.getElementById("testTokenBtn");
+
+        if (!tokenData || !tokenData.access_token) {
+          resultDiv.innerHTML = `
+                    <div class="alert alert-danger">
+                        <i class="fas fa-exclamation-circle"></i>
+                        No access token available to test.
+                    </div>
+                `;
+          return;
+        }
+
+        testBtn.disabled = true;
+        testBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Testing...';
+
+        try {
+          const response = await fetch(API_URL, {
+            method: "GET",
+            headers: {
+              Authorization: `Bearer ${tokenData.access_token}`,
+              "Content-Type": "application/json",
+            },
+          });
+
+          if (response.ok) {
+            resultDiv.innerHTML = `
+                        <div class="alert alert-success">
+                            <h4><i class="fas fa-check-circle"></i> Token Test Successful!</h4>
+                            <p>The access token is valid and working with the API.</p>
+                            <p><strong>Response Status:</strong> ${response.status}</p>
+                        </div>
+                    `;
+          } else {
+            resultDiv.innerHTML = `
+                        <div class="alert alert-warning">
+                            <h4><i class="fas fa-exclamation-triangle"></i> Token Test Warning</h4>
+                            <p>The API responded but with status: ${response.status}</p>
+                            <p>This might indicate the token needs refreshing or API issues.</p>
+                        </div>
+                    `;
+          }
+        } catch (error) {
+          console.error("Token test error:", error);
+          resultDiv.innerHTML = `
+                    <div class="alert alert-danger">
+                        <h4><i class="fas fa-exclamation-circle"></i> Token Test Failed</h4>
+                        <p>Error: ${error.message}</p>
+                        <p>The token might be invalid or the API might be unreachable.</p>
+                    </div>
+                `;
+        } finally {
+          testBtn.disabled = false;
+          testBtn.innerHTML = '<i class="fas fa-vial"></i> Test Token';
+        }
+      }
+
+      // Auto Refresh
+      function setAutoRefresh(enabled) {
+        autoRefresh = enabled;
+        const icon = autoRefreshBtn.querySelector("i");
+        const text = autoRefreshBtn.querySelector("span") || autoRefreshBtn;
+
+        if (enabled) {
+          text.textContent = "Auto Refresh: ON";
+          autoRefreshBtn.classList.remove("disabled");
+          startAutoRefresh();
+          updateStatus("live", "Live");
+        } else {
+          text.textContent = "Auto Refresh: OFF";
+          autoRefreshBtn.classList.add("disabled");
+          stopAutoRefresh();
+          updateStatus("cached", "Paused");
+        }
+      }
+
+      autoRefreshBtn.addEventListener("click", () =>
+        setAutoRefresh(!autoRefresh)
+      );
+
+      function startAutoRefresh() {
+        if (autoRefreshTimer) clearInterval(autoRefreshTimer);
+        if (autoRefresh) {
+          autoRefreshTimer = setInterval(fetchData, AUTO_REFRESH_INTERVAL);
+        }
+      }
+
+      function stopAutoRefresh() {
+        if (autoRefreshTimer) {
+          clearInterval(autoRefreshTimer);
+          autoRefreshTimer = null;
+        }
+      }
+
+      function updateStatus(type, message) {
+        statusDot.className = `status-dot ${type}`;
+        statusText.textContent = message;
+      }
+
+      // Data Management
+      function loadCache() {
+        const cached = localStorage.getItem(CACHE_KEY);
+        const cacheTime = localStorage.getItem(CACHE_TIME_KEY);
+        if (cached && cacheTime) {
+          try {
+            data = JSON.parse(cached);
+            renderAll();
+            lastUpdatedEl.textContent = new Date(
+              parseInt(cacheTime)
+            ).toLocaleString();
+            updateStatus("cached", "Cached");
+            return true;
+          } catch (e) {
+            console.error("Error loading cache:", e);
+          }
+        }
+        return false;
+      }
+
+      function saveCache(d) {
+        try {
+          localStorage.setItem(CACHE_KEY, JSON.stringify(d));
+          localStorage.setItem(CACHE_TIME_KEY, Date.now().toString());
+        } catch (e) {
+          console.error("Error saving cache:", e);
+        }
+      }
+
+      async function fetchData() {
+        if (loading) return;
+
+        loading = true;
+        loadingEl.style.display = "block";
+        errorEl.style.display = "none";
+        updateStatus("loading", "Loading...");
+
+        try {
+          // Prepare headers with access token if available
+          const headers = {
+            "Content-Type": "application/json",
+          };
+
+          const accessToken = getValidAccessToken();
+          if (accessToken) {
+            headers["Authorization"] = `Bearer ${accessToken}`;
+          }
+
+          const response = await fetch(API_URL, {
+            method: "GET",
+            headers: headers,
+          });
+
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+
+          const newData = await response.json();
+          data = newData;
+          saveCache(newData);
+          renderAll();
+
+          lastUpdatedEl.textContent = new Date().toLocaleString();
+          updateStatus("live", "Live");
+        } catch (error) {
+          console.error("Fetch error:", error);
+          errorEl.textContent = `Failed to fetch data: ${error.message}. ${
+            data ? "Showing cached data." : "Please try again."
+          }`;
+          errorEl.style.display = "block";
+          updateStatus("error", "Error");
+
+          if (!data) {
+            loadCache();
+          }
+        } finally {
+          loadingEl.style.display = "none";
+          loading = false;
+        }
+      }
+
+      refreshBtn.addEventListener("click", fetchData);
+
+      // Rendering Functions
+      function renderAll() {
+        if (!data) return;
+
+        // Update header
+        spotPriceEl.textContent = data.spot_price.toFixed(2);
+        scenarioNumEl.textContent = data.scenario;
+
+        // Render all pages
+        renderOverviewPage();
+        renderSupportPage();
+        renderResistancePage();
+        renderSignalsPage();
+        renderRiskPage();
+      }
+
+      function renderOverviewPage() {
+        const analysis = data.analysis;
+        const insights = data.market_insights;
+
+        const html = `
+                <h2><i class="fas fa-chart-line"></i> Market Overview</h2>
+                
+                <div class="cards-grid">
+                    <div class="metric-card">
+                        <h4><i class="fas fa-info-circle"></i> Market State</h4>
+                        <div class="metric-row">
+                            <span class="metric-label">Current State</span>
+                            <span class="metric-value">${analysis.shift_summary.market_state.replace(
+                              "_",
+                              " "
+                            )}</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Market Sentiment</span>
+                            <span class="metric-value">${
+                              insights.market_sentiment
+                            }</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">PCR Ratio</span>
+                            <span class="metric-value">${insights.pcr}</span>
+                        </div>
+                    </div>
+                    
+                    <div class="metric-card">
+                        <h4><i class="fas fa-crosshairs"></i> Key Strikes</h4>
+                        <div class="metric-row">
+                            <span class="metric-label">ATM Strike</span>
+                            <span class="metric-value">${
+                              insights.atm_strike
+                            }</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Max Call Volume</span>
+                            <span class="metric-value">${
+                              insights.max_call_volume_strike
+                            }</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Max Put Volume</span>
+                            <span class="metric-value">${
+                              insights.max_put_volume_strike
+                            }</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="alert alert-info">
+                    <h4><i class="fas fa-chart-area"></i> Trading Range</h4>
+                    <p><strong>${
+                      analysis.market_boundaries.trading_range.range_description
+                    }</strong></p>
+                    <p>Range: <strong>${
+                      analysis.market_boundaries.trading_range.lower
+                    } - ${
+          analysis.market_boundaries.trading_range.upper
+        }</strong> 
+                    (<strong>${
+                      analysis.market_boundaries.trading_range.range_points
+                    } points</strong>)</p>
+                    <p>Expectation: ${
+                      analysis.market_boundaries.trading_range
+                        .market_expectation
+                    }</p>
+                </div>
+
+                <h3><i class="fas fa-layer-group"></i> Market Boundaries</h3>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Level Type</th>
+                            <th>Current</th>
+                            <th>Target</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Immediate Support</strong></td>
+                            <td>${
+                              analysis.market_boundaries.immediate_support
+                            }</td>
+                            <td>${
+                              analysis.market_boundaries.target_support
+                            }</td>
+                            <td><span class="alert alert-warning" style="padding: 0.25rem 0.5rem; margin: 0;">Shifting Down</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Immediate Resistance</strong></td>
+                            <td>${
+                              analysis.market_boundaries.immediate_resistance
+                            }</td>
+                            <td>${
+                              analysis.market_boundaries.target_resistance
+                            }</td>
+                            <td><span class="alert alert-warning" style="padding: 0.25rem 0.5rem; margin: 0;">Shifting Up</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            `;
+
+        pages.overview.innerHTML = html;
+      }
+
+      function renderSupportPage() {
+        const support = data.analysis.support;
+
+        let candidatesRows = "";
+        support.all_candidates.forEach((candidate) => {
+          candidatesRows += `
+                    <tr>
+                        <td><strong>${candidate.strike}</strong></td>
+                        <td>${candidate.composite_score.toLocaleString()}</td>
+                        <td>${candidate.oi.toLocaleString()}</td>
+                        <td>${candidate.volume.toLocaleString()}</td>
+                        <td>${(candidate.momentum.strength * 100).toFixed(
+                          2
+                        )}%</td>
+                        <td>${candidate.option_data.ImpliedVolatility.toFixed(
+                          2
+                        )}%</td>
+                    </tr>
+                `;
+        });
+
+        const html = `
+                <h2><i class="fas fa-arrow-up"></i> Support Analysis</h2>
+                
+                <div class="cards-grid">
+                    <div class="metric-card">
+                        <h4><i class="fas fa-layer-group"></i> Current Support</h4>
+                        <div class="metric-row">
+                            <span class="metric-label">Level</span>
+                            <span class="metric-value">${
+                              support.current_level
+                            }</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Status</span>
+                            <span class="metric-value">${support.status}</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Completion</span>
+                            <span class="metric-value">${
+                              support.completion
+                            }</span>
+                        </div>
+                    </div>
+                    
+                    <div class="metric-card">
+                        <h4><i class="fas fa-chart-line"></i> Strength Metrics</h4>
+                        <div class="metric-row">
+                            <span class="metric-label">Strength Ratio</span>
+                            <span class="metric-value">${(
+                              support.strength_ratio * 100
+                            ).toFixed(2)}%</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Target Level</span>
+                            <span class="metric-value">${
+                              support.target_level
+                            }</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Confidence</span>
+                            <span class="metric-value">${(
+                              support.confidence * 100
+                            ).toFixed(2)}%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h3><i class="fas fa-list"></i> All Support Candidates</h3>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Strike</th>
+                            <th>Composite Score</th>
+                            <th>Open Interest</th>
+                            <th>Volume</th>
+                            <th>Momentum</th>
+                            <th>Implied Volatility</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${candidatesRows}
+                    </tbody>
+                </table>
+            `;
+
+        pages.support.innerHTML = html;
+      }
+
+      function renderResistancePage() {
+        const resistance = data.analysis.resistance;
+
+        let candidatesRows = "";
+        resistance.all_candidates.forEach((candidate) => {
+          candidatesRows += `
+                    <tr>
+                        <td><strong>${candidate.strike}</strong></td>
+                        <td>${candidate.composite_score.toLocaleString()}</td>
+                        <td>${candidate.oi.toLocaleString()}</td>
+                        <td>${candidate.volume.toLocaleString()}</td>
+                        <td>${(candidate.momentum.strength * 100).toFixed(
+                          2
+                        )}%</td>
+                        <td>${candidate.option_data.ImpliedVolatility.toFixed(
+                          2
+                        )}%</td>
+                    </tr>
+                `;
+        });
+
+        const html = `
+                <h2><i class="fas fa-arrow-down"></i> Resistance Analysis</h2>
+                
+                <div class="cards-grid">
+                    <div class="metric-card">
+                        <h4><i class="fas fa-layer-group"></i> Current Resistance</h4>
+                        <div class="metric-row">
+                            <span class="metric-label">Level</span>
+                            <span class="metric-value">${
+                              resistance.current_level
+                            }</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Status</span>
+                            <span class="metric-value">${
+                              resistance.status
+                            }</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Completion</span>
+                            <span class="metric-value">${
+                              resistance.completion
+                            }</span>
+                        </div>
+                    </div>
+                    
+                    <div class="metric-card">
+                        <h4><i class="fas fa-chart-line"></i> Strength Metrics</h4>
+                        <div class="metric-row">
+                            <span class="metric-label">Strength Ratio</span>
+                            <span class="metric-value">${(
+                              resistance.strength_ratio * 100
+                            ).toFixed(2)}%</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Target Level</span>
+                            <span class="metric-value">${
+                              resistance.target_level
+                            }</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Confidence</span>
+                            <span class="metric-value">${(
+                              resistance.confidence * 100
+                            ).toFixed(2)}%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h3><i class="fas fa-list"></i> All Resistance Candidates</h3>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Strike</th>
+                            <th>Composite Score</th>
+                            <th>Open Interest</th>
+                            <th>Volume</th>
+                            <th>Momentum</th>
+                            <th>Implied Volatility</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${candidatesRows}
+                    </tbody>
+                </table>
+            `;
+
+        pages.resistance.innerHTML = html;
+      }
+
+      function renderSignalsPage() {
+        const signals = data.signals;
+        const executionPlan = data.execution_plan;
+
+        let targetsHtml = "";
+        signals.immediate_targets.forEach((target) => {
+          targetsHtml += `
+                    <li>
+                        <strong>${target.type}:</strong> ${target.level} — 
+                        <span style="color: var(--primary-color); font-weight: 600;">
+                            ${target.action.replace(/_/g, " ")}
+                        </span>
+                    </li>
+                `;
+        });
+
+        let immediateActionsHtml = "";
+        if (executionPlan.immediate_actions) {
+          executionPlan.immediate_actions.forEach((action) => {
+            immediateActionsHtml += `
+                        <li>
+                            <strong>${action.action}:</strong> ${action.strike_selection.reasoning}
+                            <br><small>Optimal Strike: ${action.strike_selection.optimal_strike}</small>
+                        </li>
+                    `;
+          });
+        }
+
+        let conditionalActionsHtml = "";
+        if (executionPlan.conditional_actions) {
+          executionPlan.conditional_actions.forEach((action) => {
+            conditionalActionsHtml += `
+                        <li>
+                            <strong>${action.condition}:</strong> ${action.action} at level ${action.level}
+                            <br><small>Type: ${action.type}</small>
+                        </li>
+                    `;
+          });
+        }
+
+        const html = `
+                <h2><i class="fas fa-signal"></i> Trading Signals & Execution Plan</h2>
+                
+                <div class="cards-grid">
+                    <div class="metric-card">
+                        <h4><i class="fas fa-bullseye"></i> Signal Overview</h4>
+                        <div class="metric-row">
+                            <span class="metric-label">EOS Signal</span>
+                            <span class="metric-value">${
+                              signals.EOS || "-"
+                            }</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">EOR Signal</span>
+                            <span class="metric-value">${
+                              signals.EOR || "-"
+                            }</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Scenario</span>
+                            <span class="metric-value">${
+                              signals.scenario
+                            }</span>
+                        </div>
+                    </div>
+                    
+                    <div class="metric-card">
+                        <h4><i class="fas fa-chart-line"></i> Confidence Metrics</h4>
+                        <div class="metric-row">
+                            <span class="metric-label">Confidence Level</span>
+                            <span class="metric-value">${
+                              signals.confidence_level
+                            }</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Average Confidence</span>
+                            <span class="metric-value">${(
+                              signals.avg_confidence * 100
+                            ).toFixed(2)}%</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Market State</span>
+                            <span class="metric-value">${signals.market_state.replace(
+                              "_",
+                              " "
+                            )}</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="alert alert-success">
+                    <h4><i class="fas fa-lightbulb"></i> Enhancements</h4>
+                    <ul class="styled-list">
+                        ${signals.enhancements
+                          .map((enhancement) => `<li>${enhancement}</li>`)
+                          .join("")}
+                    </ul>
+                </div>
+
+                <h3><i class="fas fa-crosshairs"></i> Immediate Targets</h3>
+                <ul class="styled-list">
+                    ${targetsHtml}
+                </ul>
+
+                <h3><i class="fas fa-play"></i> Immediate Actions</h3>
+                <ul class="styled-list">
+                    ${immediateActionsHtml}
+                </ul>
+
+                <h3><i class="fas fa-question-circle"></i> Conditional Actions</h3>
+                <ul class="styled-list">
+                    ${conditionalActionsHtml}
+                </ul>
+
+                <h3><i class="fas fa-eye"></i> Watch Levels</h3>
+                <ul class="styled-list">
+                    ${
+                      executionPlan.watch_levels
+                        ? executionPlan.watch_levels
+                            .map((level) => `<li>${level}</li>`)
+                            .join("")
+                        : "<li>No watch levels available</li>"
+                    }
+                </ul>
+            `;
+
+        pages.signals.innerHTML = html;
+      }
+
+      function renderRiskPage() {
+        const risk = data.risk_assessment;
+
+        let riskFactorsHtml = "";
+        risk.risk_factors.forEach((factor) => {
+          riskFactorsHtml += `<li>${factor}</li>`;
+        });
+
+        const html = `
+                <h2><i class="fas fa-shield-alt"></i> Risk Assessment</h2>
+                
+                <div class="cards-grid">
+                    <div class="metric-card">
+                        <h4><i class="fas fa-exclamation-triangle"></i> Risk Overview</h4>
+                        <div class="metric-row">
+                            <span class="metric-label">Risk Level</span>
+                            <span class="metric-value" style="color: var(--danger-color); font-weight: 700;">${risk.risk_level}</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Position Size</span>
+                            <span class="metric-value">${risk.recommended_position_size}</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Stop Loss</span>
+                            <span class="metric-value">${risk.stop_loss_suggestion}</span>
+                        </div>
+                    </div>
+                    
+                    <div class="metric-card">
+                        <h4><i class="fas fa-cog"></i> Risk Management</h4>
+                        <div class="metric-row">
+                            <span class="metric-label">Max Risk Per Trade</span>
+                            <span class="metric-value">${data.execution_plan.risk_management.max_risk_per_trade}</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Stop Loss Type</span>
+                            <span class="metric-value">${data.execution_plan.risk_management.stop_loss_type}</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Position Sizing</span>
+                            <span class="metric-value">${data.execution_plan.risk_management.position_sizing}</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="alert alert-danger">
+                    <h4><i class="fas fa-exclamation-circle"></i> Key Risk Factors</h4>
+                    <ul class="styled-list">
+                        ${riskFactorsHtml}
+                    </ul>
+                </div>
+
+                <div class="alert alert-info">
+                    <h4><i class="fas fa-info-circle"></i> Risk Management Guidelines</h4>
+                    <p><strong>For Conservative Traders:</strong> Wait for clear breakout confirmation beyond key levels before entering positions.</p>
+                    <p><strong>For Active Traders:</strong> Consider immediate signal strategies with tight risk management given current confidence levels.</p>
+                    <p><strong>Position Sizing:</strong> Maintain conservative position sizing due to current market environment and volatility.</p>
+                </div>
+            `;
+
+        pages.risk.innerHTML = html;
+      }
+
+      function renderScenarioPage() {
+        const html = `
+                <h2><i class="fas fa-chart-bar"></i> Scenario Analysis</h2>
+                
+                <div class="alert alert-info">
+                    <h4><i class="fas fa-info-circle"></i> Current Scenario: ${
+                      data.scenario
+                    }</h4>
+                    <p>This chart shows the accuracy and trading strategies for different market scenarios. 
+                    Click on the scenario number in the header to view the detailed chart in a modal.</p>
+                </div>
+
+                <div class="text-center" style="margin: 2rem 0;">
+                    <img src="http://127.0.0.1:8000/scenarios" 
+                         alt="Market Scenario Chart and Trading Strategies" 
+                         style="max-width: 100%; border-radius: 0.75rem; box-shadow: var(--shadow-lg); cursor: pointer;"
+                         onclick="document.getElementById('scenarioModal').style.display = 'block'">
+                </div>
+
+                <div class="cards-grid">
+                    <div class="metric-card">
+                        <h4><i class="fas fa-chart-line"></i> Scenario ${
+                          data.scenario
+                        } Details</h4>
+                        <div class="metric-row">
+                            <span class="metric-label">Support Status</span>
+                            <span class="metric-value">${
+                              data.analysis.support.status
+                            }</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Resistance Status</span>
+                            <span class="metric-value">${
+                              data.analysis.resistance.status
+                            }</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Market State</span>
+                            <span class="metric-value">${data.analysis.shift_summary.market_state.replace(
+                              "_",
+                              " "
+                            )}</span>
+                        </div>
+                    </div>
+                    
+                    <div class="metric-card">
+                        <h4><i class="fas fa-bullseye"></i> Trading Strategy</h4>
+                        <div class="metric-row">
+                            <span class="metric-label">Primary Signal</span>
+                            <span class="metric-value">${
+                              data.signals.EOS || "N/A"
+                            }</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Confidence</span>
+                            <span class="metric-value">${
+                              data.signals.confidence_level
+                            }</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Avg Confidence</span>
+                            <span class="metric-value">${(
+                              data.signals.avg_confidence * 100
+                            ).toFixed(1)}%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="alert alert-warning">
+                    <h4><i class="fas fa-lightbulb"></i> Scenario Interpretation</h4>
+                    <p>Based on the current scenario ${
+                      data.scenario
+                    }, the market is showing ${data.analysis.shift_summary.market_state
+          .replace("_", " ")
+          .toLowerCase()} conditions with ${data.signals.confidence_level.toLowerCase()} confidence signals.</p>
+                    <p>The chart above provides a comprehensive view of how different scenarios perform in terms of accuracy and recommended trading strategies.</p>
+                </div>
+
+                <h3><i class="fas fa-table"></i> Scenario Chart Legend</h3>
+                <div class="cards-grid">
+                    <div class="metric-card">
+                        <h4><i class="fas fa-info-circle"></i> Chart Components</h4>
+                        <div class="metric-row">
+                            <span class="metric-label">Trading @ EOS</span>
+                            <span class="metric-value">Call Entry (CE) signals</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Trading @ EOR</span>
+                            <span class="metric-value">Put Entry (PE) signals</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Support/Resistance</span>
+                            <span class="metric-value">Strength indicators with arrows</span>
+                        </div>
+                    </div>
+                    
+                    <div class="metric-card">
+                        <h4><i class="fas fa-palette"></i> Color Coding</h4>
+                        <div class="metric-row">
+                            <span class="metric-label">Green</span>
+                            <span class="metric-value">Recommended actions</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Red</span>
+                            <span class="metric-value">Avoid or cautionary signals</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Arrows</span>
+                            <span class="metric-value">Direction indicators</span>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+        pages.scenario.innerHTML = html;
+      }
+
+      // Initialize
+      function init() {
+        // Load cached data first
+        loadCache();
+
+        // Fetch fresh data
+        fetchData();
+
+        // Start auto-refresh
+        if (autoRefresh) {
+          startAutoRefresh();
+        }
+
+        // Show default page
+        showPage("overview");
+
+        // Handle page visibility
+        document.addEventListener("visibilitychange", function () {
+          if (document.hidden) {
+            stopAutoRefresh();
+          } else if (autoRefresh) {
+            startAutoRefresh();
+            fetchData(); // Fetch fresh data when page becomes visible
+          }
+        });
+      }
+
+      // Start the application
+      init();
+    </script>
+  </body>
+</html>
